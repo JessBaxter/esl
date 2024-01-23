@@ -1,3 +1,5 @@
+// TODO: UPDATE nav each week
+
 export const navigation = [
   {
     title: 'Upper-Intermediate',
@@ -10,29 +12,29 @@ export const navigation = [
       // { title: 'Week 6', href: '/upper/week06' },
       // { title: 'Week 7', href: '/upper/week07' },
       // { title: 'Week 8', href: '/upper/week08' },
-      // { title: 'Week 9', href: '/upper/week09' },
+      { title: 'Week 9: Education', href: '/upper/week09' },
       // { title: 'Week 10', href: '/upper/week10' },
       // { title: 'Week 11', href: '/upper/week11' },
       // { title: 'Week 12', href: '/upper/week12' },
     ],
   },
-  // {
-  //   title: 'Intermediate',
-  //   links: [
-  //     { title: 'Week 1', href: '/int/week01' },
-  //     { title: 'Week 2', href: '/int/week02' },
-  //     { title: 'Week 3', href: '/int/week03' },
-  //     { title: 'Week 4', href: '/int/week04' },
-  //     { title: 'Week 5', href: '/int/week05' },
-  //     { title: 'Week 6', href: '/int/week06' },
-  //     { title: 'Week 7', href: '/int/week07' },
-  //     { title: 'Week 8', href: '/int/week08' },
-  //     { title: 'Week 9', href: '/int/week09' },
-  //     { title: 'Week 10', href: '/int/week10' },
-  //     { title: 'Week 11', href: '/int/week11' },
-  //     { title: 'Week 12', href: '/int/week12' },
-  //   ],
-  // },
+  {
+    title: 'Intermediate',
+    links: [
+      // { title: 'Week 1', href: '/int/week01' },
+      // { title: 'Week 2', href: '/int/week02' },
+      // { title: 'Week 3', href: '/int/week03' },
+      { title: 'Week 4: Jobs', href: '/int/week04' },
+      // { title: 'Week 5', href: '/int/week05' },
+      // { title: 'Week 6', href: '/int/week06' },
+      // { title: 'Week 7', href: '/int/week07' },
+      // { title: 'Week 8', href: '/int/week08' },
+      // { title: 'Week 9', href: '/int/week09' },
+      // { title: 'Week 10', href: '/int/week10' },
+      // { title: 'Week 11', href: '/int/week11' },
+      // { title: 'Week 12', href: '/int/week12' },
+    ],
+  },
   // {
   //   title: 'Pre-Intermediate',
   //   links: [
