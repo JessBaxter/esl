@@ -1,12 +1,12 @@
 ---
-title: Education
+title: The News
 nextjs:
   metadata:
-    title: 'Week 9: Education'
-    description: ELICOS resources pertaining to education.
+    title: 'Week 9: The News'
+    description: ELICOS resources pertaining to the news.
 ---
 
-Prepare yourself for an _Inception_ week, where we learn about learning!
+This week, we're going to _read all about it!_
 
 ---
 

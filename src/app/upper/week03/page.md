@@ -23,41 +23,66 @@ Here are some interesting videos that demonstrate how formal and informal debate
 
 Being able to back up your claims with reputable sources is a key skill in winning any argument. In today's world where it's becoming increasingly more difficult to be able to determine fact from fiction (in part due to the accessibility of AI-generated content), knowing that the information you have can be trusted is vital.
 
-Here are some of my personal go-to sites, when it comes to learning about some of these pretty complex topics. You'll need to use the site's **search** functionality to find articles of interest.
+### List of reliable sources
 
-### Physical and mental health resources
+Here are some of my personal go-to sites when it comes to learning about some of these pretty complex topics. You'll need to use the site's **search** functionality to find articles of interest.
 
-- [American Psychological Association](https://www.apa.org/)
-- [Psychology Today](https://www.psychologytoday.com/au)
-- [WebMD](https://www.webmd.com/)
-- [Mayo Clinic](https://www.mayoclinic.org/)
+| Site                                                                 | Topics                                                                   |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [American Psychological Association](https://www.apa.org)            | Psychological research, mental health resources, professional guidelines |
+| [Psychology Today](https://www.psychologytoday.com/au)               | Mental health articles, therapy insights, psychological studies          |
+| [WebMD](https://www.webmd.com)                                       | Physical health, mental health, medical treatments                       |
+| [Mayo Clinic](https://www.mayoclinic.org)                            | Medical information, disease symptoms, health advice                     |
+| [Edutopia](https://www.edutopia.org/search?query=technology)         | Educational innovations, teaching strategies, student engagement         |
+| [National Geographic](https://education.nationalgeographic.org)      | Wildlife conservation, cultural explorations, environmental science      |
+| [World Health Organization](https://www.who.int)                     | Global health issues, disease outbreaks, health policies                 |
+| [Harvard Magazine](https://www.harvardmagazine.com)                  | Academic research, higher education trends, cultural insights            |
+| [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu)    | Philosophical concepts, ethical theories, intellectual history           |
+| [NASA](https://science.nasa.gov/climate-change)                      | Space exploration, astronomical research, climate science                |
+| [Australian Academy of Science](https://www.science.org.au/learning) | Scientific research, climate change, science education                   |
+| [MIT](https://climate.mit.edu/)                                      | Technological innovation, scientific research, climate solutions         |
+| [Smart Cities Dive](https://www.smartcitiesdive.com)                 | Urban development, smart technology, municipal policies                  |
+| [Bloomberg](https://www.bloomberg.com/citylab)                       | Economic analysis, global markets, urban planning                        |
+| [Simple Wikipedia](https://simple.wikipedia.org)                     | Simplified explanations, general knowledge, easy-to-understand language  |
+| [Quantum Country](https://quantum.country)                           | Quantum mechanics, scientific concepts, educational material             |
 
-### Technology in education resources
+## What are some common phrases used in debates?
 
-- [Edutopia](https://www.edutopia.org/search?query=technology)
+When participating in a debate in English, there are some common phrases that we use to clearly express our ideas, support them with facts, respond to other people's opinions, and smoothly move from one idea to another, while being polite and interesting.
 
-### Genetically modified organisms resources
+| Purpose                         | Common phrases                                |
+| ------------------------------- | --------------------------------------------- |
+| Introducing an Argument         | "Firstly, I would like to argue that..."      |
+|                                 | "My primary argument is..."                   |
+|                                 | "The main point I want to make is..."         |
+| Providing Evidence              | "This is supported by the evidence that..."   |
+|                                 | "For instance,..."                            |
+|                                 | "According to [source],..."                   |
+| Acknowledging the Opposing View | "While it is true that..."                    |
+|                                 | "I understand the perspective that..."        |
+|                                 | "Some might argue that..."                    |
+| Refuting an Argument            | "However/But, this fails to consider..."      |
+|                                 | "On the contrary,..."                         |
+|                                 | "This argument overlooks the fact that..."    |
+| Concluding an Argument          | "In conclusion,..."                           |
+|                                 | "Therefore, it is clear that..."              |
+|                                 | "To sum up,..."                               |
+| Asking Questions                | "How do you account for...?"                  |
+|                                 | "What evidence is there to support...?"       |
+|                                 | "Isn't it also possible that...?"             |
+| Clarifying a Point              | "To clarify,..."                              |
+|                                 | "What I mean to say is..."                    |
+|                                 | "Let me elaborate on that..."                 |
+| Agreeing with a Point           | "I agree with [speaker] on the point that..." |
+|                                 | "That's a valid point because..."             |
+|                                 | "You're correct in saying that..."            |
+| Disagreeing Politely            | "I see your point, but..."                    |
+|                                 | "I respectfully disagree because..."          |
+|                                 | "That may be true, but..."                    |
+| Transitioning Between Points    | "Moving on to my next point,..."              |
+|                                 | "Furthermore,..."                             |
+|                                 | "Additionally,..."                            |
 
-- [National Geographic](https://education.nationalgeographic.org/)
-- [World Health Organization](https://www.who.int/home/search-results?indexCatalogue=genericsearchindex1&searchQuery=gmo&wordsMode=AnyWord)
+### An example (delivered by the 2nd speaker)
 
-### Artificial intelligence and machine learning resources
-
-- [Harvard Magazine](https://www.harvardmagazine.com/)
-- [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/search/searcher.py?query=artificial+intelligence) (This is pretty heavy stuff, so feel free to use [ChatGPT](https://chat.openai.com/) to `make this text simpler and easier to understand`)
-
-### Space exploration and climate change resources
-
-- [NASA](https://science.nasa.gov/climate-change/)
-- [Australian Academy of Science](https://www.science.org.au/learning/general-audience/science-climate-change/1-what-is-climate-change)
-- [MIT](https://climate.mit.edu/)
-
-### Technology and urban development resources
-
-- [Smart Cities Dive](https://www.smartcitiesdive.com/)
-- [Bloomberg](https://www.bloomberg.com/citylab)
-
-### Quantum computing resources
-
-- [Simple Wikipedia]() (This site helps to make such a challenging topic easier to understand.)
-- [Quantum Country]()
+_Firstly, I would like to argue that_ social media isn't always good for our minds. _While it is true that_ it can help us feel connected, _this argument overlooks the fact that_ it can also make us feel sad or worried. _For instance_, when we see others looking happy online, we might feel left out or not good enough. _Some might argue that_ social media is a great way to share things, _but this fails to consider_ how it makes us compare ourselves to others all the time. _Additionally_, spending too much time on social media can make us feel stressed. _To clarify_, I'm not saying social media is all bad, but we need to be careful with how we use it. _In conclusion_, the problems with social media, like feeling sad or stressed, are bigger than the good parts.
