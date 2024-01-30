@@ -106,5 +106,5 @@ _Overall_, I think the "Ancient Oceans" exhibit is a must-see at the Queensland 
 
 ## Useful links
 
-- [Introduction to Markdown](markdown/)
-- [Student Reviews](reviews/)
+- [Introduction to Markdown](../../markdown/)
+- [Student Reviews](../../reviews/)
