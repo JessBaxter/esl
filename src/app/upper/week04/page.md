@@ -6,7 +6,7 @@ nextjs:
     description: ELICOS resources pertaining to art.
 ---
 
-Art and culture offer us a unique window into the hearts and minds of people across different eras and regions. As we explore together, you'll virtually travel through time and space, encountering the beauty and ingenuity of human expression. From awe-inspiring artworks to captivating dances, and from timeless musical pieces to influential cultural practices, each element has a compelling tale to share.
+This week, we're building on what we learnt last week in our _Science and Technology_ unit. You're going to visit the [Queensland Art Gallery](https://www.qagoma.qld.gov.au/), and the [Queensland Museum](https://www.museum.qld.gov.au/kurilpa/), then write an online art review of something you saw or experienced.
 
 ---
 
@@ -14,7 +14,7 @@ Art and culture offer us a unique window into the hearts and minds of people acr
 
 **1. Choose Your Artwork or Exhibit**
 
-Pick a piece of artwork or an exhibit at QAG or GOMA that really catches your eye.
+Pick a piece of artwork or an exhibit at _QAG_ or _GOMA_ that really catches your eye.
 
 **2. Take Notes**
 
@@ -103,3 +103,8 @@ _One thing that stands out is_ the interactive component where visitors can touc
 _According to a fellow visitor_, Mrs. Thompson, she found the exhibit "educational and beautifully presented, especially for children." _She remarked that_ "the combination of visual models and factual information makes it easy to understand and appreciate the history of marine life."
 
 _Overall_, I think the "Ancient Oceans" exhibit is a must-see at the Queensland Museum. It offers not just a visual feast but an educational journey back in time. The exhibit is suitable for all ages and provides a fascinating insight into the life that once dominated our oceans. I would **definitely recommend** a visit to anyone interested in history, nature, or simply looking for an intriguing experience.
+
+## Useful links
+
+- [Introduction to Markdown](markdown/)
+- [Student Reviews](reviews/)
