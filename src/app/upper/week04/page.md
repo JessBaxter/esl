@@ -10,9 +10,7 @@ Art and culture offer us a unique window into the hearts and minds of people acr
 
 ---
 
-# How to Write an Art Review
-
-## Step-by-step Guide
+## How to Write an Art Review
 
 **1. Choose Your Artwork or Exhibit**
 
