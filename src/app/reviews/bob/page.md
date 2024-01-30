@@ -6,7 +6,7 @@ nextjs:
     description: Bob’s review of the Ancient Oceans exhibit at the Queensland Museum.
 ---
 
-Bob visited the Queensland Museum and wrote a review on the Ancient Oceans exhibit. He has been learning English for 4 years and is in the _Upper-Intermedaite_ class.
+Bob visited the Queensland Museum and wrote a review about the Ancient Oceans exhibit. He has been learning English for 4 years and is in the _Upper-Intermediate_ class.
 
 ---
 
