@@ -6,7 +6,7 @@ If this is your first visit, feel free to check out the resources below. {% .lea
 
 {% quick-links %}
 
-{% quick-link title="Upper-Intermediate" icon="installation" href="/upper" description="Resources for students at a CEFR B2 level." /%}
+{% quick-link title="Upper Intermediate" icon="installation" href="/upper" description="Resources for students at a CEFR B2 level." /%}
 
 {% quick-link title="Intermediate" icon="installation" href="/int" description="Resources for students at a CEFR B1 level." /%}
 
