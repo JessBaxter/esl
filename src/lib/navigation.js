@@ -2,7 +2,7 @@
 
 export const navigation = [
   {
-    title: 'Upper-Intermediate',
+    title: 'Upper Intermediate',
     links: [
       { title: 'Week 1: Relationships', href: '/upper/week01' },
       { title: 'Week 2: Storytelling', href: '/upper/week02' },
