@@ -6,10 +6,6 @@ nextjs:
     description: ELICOS resources pertaining to science and technology.
 ---
 
-Last week we talked about Technology, which includes using websites and the internet at large. This week, with our art topic, we're going to combine the two and create our very own online art reviews. We'll do this in a special language called `Markdown`. Let's see what that's all about, shall we?
-
----
-
 ## What is Markdown?
 
 Think of Markdown as a simple way to style your writing on the computer. Just like how you might use a pen to underline or highlight words in a notebook, Markdown lets you format your text in a digital document. You can make words bold or italic, create lists, and more, all by typing certain symbols around your text. It's used for writing things like blog posts, comments on websites, or even your own notes in a simple and easy way.
