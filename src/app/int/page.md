@@ -3,45 +3,29 @@ title: Intermediate
 nextjs:
   metadata:
     title: 'Intermediate Resources'
-    description: ELICOS resources for CEFR B1.
+    description: ELICOS resources for Intermediate students at the CEFR B2 level.
 ---
 
-Welcome to our Resource Hub for Intermediate ELICOS students! This section is specially designed to offer you a wealth of external resources that will complement and expand upon what you learn in class.
-
-If this is your first visit, read on! Otherwise, feel free to use the menu links to find specific resources.
-
-As you explore, you'll find:
+Welcome Intermediate ELICOS students! This section is specially designed to offer you a wealth of external resources that will complement and expand upon what you learn in class.
 
 ---
 
-## Informative Articles and Readings
+<!--
 
-Direct links to articles and online readings that are perfect for upper-intermediate learners. These resources will help you deepen your understanding of various topics and enhance your reading comprehension skills.
+| 1    | [Culture and identity](/int/week01) | Present simple and continuous, direct and indirect questions   |
+| 2    | [Performing](/int/week02)           | Present perfect, past simple                                   |
+| 3    | [Water](/int/week03)                | Past simple, continuous and perfect                            |
+| 5    | [Well being](/int/week05)           | Modals                                                         |
+| 6    | [Mysteries](/int/week06)            | Purpose, certainty and possibility                             |
+| 7    | [Living Space](/int/week07)         | Comparison, used to                                            |
+| 8    | [Travel](/int/week08)               | Gerunds and infinitives, present perfect simple and continuous |
+| 9    | [Shopping](/int/week09)             | Passives, articles, quantifiers                                |
+| 10   | [No limits](/int/week10)            | Conditional (second)                                           |
+| 11   | [Connections](/int/week11)          | Reported speech                                                |
+| 12   | [Expoerts](/int/week12)             | Conditional (third)                                            |
 
-## Listening and Watching Resources
+ -->
 
-Access to podcasts, interviews, and video lectures that can help you improve your listening skills and expose you to different accents and styles of spoken English.
-
-## Grammar and Vocabulary Expansion
-
-Links to comprehensive websites dedicated to grammar and vocabulary. These resources are great for self-study, offering clear explanations and examples.
-
-## Pronunciation Practice
-
-Discover websites and tools that focus on pronunciation, helping you to speak English more clearly and confidently.
-
-## Cultural Insights
-
-Find articles and videos that offer insights into English-speaking cultures. These resources will help you understand the cultural nuances and contexts of the language.
-
-## Exam Preparation Materials
-
-If you're aiming to take English proficiency exams like IELTS or TOEFL, you'll find links to practice tests, tips, and strategies to aid your preparation.
-
-## Online Dictionaries and Thesauruses
-
-A collection of reliable and comprehensive online dictionaries and thesauruses for quick reference and vocabulary building.
-
-## News and Current Events
-
-Stay updated with global happenings through links to news websites. Reading news articles can also help you get accustomed to formal and journalistic styles of English.
+| Week | Theme                        | Grammar Focus             |
+| ---- | ---------------------------- | ------------------------- |
+| 4    | [Opportunities](/int/week04) | Predictions, future forms |
