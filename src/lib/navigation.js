@@ -18,6 +18,14 @@ export const navigation = [
         title: 'Spaced repetition',
         href: '/articles/the-power-of-spaced-repetition-in-language-learning',
       },
+      {
+        title: 'Survival English for beginners',
+        href: '/articles/survival-english',
+      },
+      {
+        title: '... more articles',
+        href: '/articles',
+      },
     ],
   },
   {
