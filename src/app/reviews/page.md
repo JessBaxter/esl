@@ -6,14 +6,19 @@ nextjs:
     description: Student reviews after visiting the Queensland Art Gallery.
 ---
 
-In week 4, we visited the Queensland Art Gallery and the Queensland Museum. All of you then wrote reviews of the things you saw or experienced.
-
 ---
+
+## Week 4 Art Reviews
+
+In week 4, we visited the Queensland Art Gallery and the Queensland Museum. All of you then wrote reviews of the things you saw or experienced.
 
 <!-- - [Bob's Review of the "Ancient Oceans" Exhibit at the Queensland Museum](reviews/bob/) -->
 
-- [Gabriel's Review of the artwork "Under the Jacaranda" at the Queensland Art Gallery](reviews/gabriel/)
-- [Jim's Review of the artwork "Games of the Sun 1992" at the Queensland Art Gallery](reviews/jim/)
-- [Juan's Review of artwork by Benita Clemes at the Queensland Art Gallery](reviews/juan/)
-- [Natalia's Review of the artwork "Aggregate Icon" at the Queensland Art Gallery](reviews/natalia/)
-- [Stefany's Review of the artwork "Lightning 1998" at the Queensland Art Gallery](reviews/stefany/)
+- [Alejandra's Review of "Passing the River at Woogaroo Reach"](reviews/alejandra/)
+- [Arnol's Review of "Dark Necessities"](reviews/arnol/)
+- [Gabriel's Review of "Under the Jacaranda"](reviews/gabriel/)
+- [Jim's Review of "Games of the Sun 1992"](reviews/jim/)
+- [Juan's Review of artwork by Benita Clemes](reviews/juan/)
+- [Mia's Review of a photo from LIFE magazine](reviews/mia/)
+- [Natalia's Review of "Aggregate Icon"](reviews/natalia/)
+- [Stefany's Review of "Lightning 1998"](reviews/stefany/)
