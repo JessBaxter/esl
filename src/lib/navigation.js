@@ -2,6 +2,10 @@
 
 export const navigation = [
   {
+    title: 'Articles about learning English',
+    links: [{ title: 'All articles', href: '/articles' }],
+  },
+  {
     title: 'Upper Intermediate',
     links: [
       { title: 'Week 1: Relationships', href: '/upper/week01' },
