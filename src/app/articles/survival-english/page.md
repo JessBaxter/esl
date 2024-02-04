@@ -6,12 +6,13 @@ nextjs:
     description: These phrases and questions cover basic interactions, emergencies, dining, and transportation, making them crucial for navigating daily life and situations in Australia with limited English.
 ---
 
-In a world that's more interconnected than ever, the ability to communicate effectively across language barriers is invaluable. This article exists to bridge that gap for travelers, particularly those venturing into English-speaking territories like Australia, without a strong command of the English language. I've compiled a list of 20 essential survival English phrases and questions designed to help non-English speakers navigate through daily interactions, emergencies, dining, and transportation with ease. Whether they're a tourist, student, or someone looking to get by during their stay, this guide aims to empower them with the basic linguistic tools needed for a smoother, more enjoyable experience. Be sure to share this if you know someone who's planning a visit to Australia?
+In a world that's more interconnected than ever, the ability to communicate effectively across language barriers is invaluable. This article exists to bridge that gap for travelers, particularly those venturing into English-speaking territories like Australia, without a strong command of the English language. I've compiled a list of 20 essential survival English phrases and questions designed to help non-English speakers navigate through daily interactions, emergencies, dining, and transportation with ease. Whether they're a tourist, student, or someone looking to get by during their stay, this guide aims to empower them with the basic linguistic tools needed for a smoother, more enjoyable experience. Be sure to share this if you know someone who's planning a visit to Australia!
 
 ---
 
 | Expression                                     | Purpose                                             |
 | ---------------------------------------------- | --------------------------------------------------- |
+| "Excuse me, do you speak [language]?"          | To find someone who speaks your language.           |
 | "Hello, how are you?"                          | A basic greeting to start any conversation.         |
 | "Excuse me, can you help me?"                  | To politely get someone's attention for assistance. |
 | "Where is the nearest toilet, please?"         | For finding restrooms.                              |
