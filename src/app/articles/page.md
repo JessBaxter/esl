@@ -6,7 +6,7 @@ nextjs:
     description: A collection of articles written for ELICOS students.
 ---
 
-Here's a collection of articles I've either written, or found online, about learning English.
+Here's a collection of articles I've either written or found online about learning English.
 
 ---
 
