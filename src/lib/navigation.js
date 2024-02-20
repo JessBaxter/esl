@@ -1,12 +1,5 @@
 export const navigation = [
   {
-    title: 'Course materials',
-    links: [
-      { title: 'Intermediate', href: '/int' },
-      { title: 'Upper Intermediate', href: '/upper' },
-    ],
-  },
-  {
     title: 'Articles about learning English',
     links: [
       {
@@ -26,6 +19,23 @@ export const navigation = [
         title: '... more articles',
         href: '/articles',
       },
+    ],
+  },
+  {
+    title: 'Improve your English skills',
+    links: [
+      { title: 'Reading', href: '/skills/reading' },
+      // { title: 'Writing', href: '/skills/writing' },
+      // { title: 'Listening', href: '/skills/listening' },
+      // { title: 'Speaking', href: '/skills/speaking' },
+      // { title: 'Grammar', href: '/skills/grammar' },
+    ],
+  },
+  {
+    title: 'Course materials',
+    links: [
+      { title: 'Intermediate', href: '/int' },
+      { title: 'Upper Intermediate', href: '/upper' },
     ],
   },
   {
