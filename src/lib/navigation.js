@@ -27,7 +27,7 @@ export const navigation = [
       { title: 'Reading', href: '/skills/reading' },
       // { title: 'Writing', href: '/skills/writing' },
       // { title: 'Listening', href: '/skills/listening' },
-      // { title: 'Speaking', href: '/skills/speaking' },
+      { title: 'Speaking', href: '/skills/speaking' },
       { title: 'Grammar', href: '/grammar' },
     ],
   },
