@@ -23,9 +23,9 @@ Welcome Upper Intermediate ELICOS students! This section is specially designed t
 
  -->
 
-| Week | Theme                                  | Grammar Focus                          |
-| ---- | -------------------------------------- | -------------------------------------- |
-| 3    | [Science and Tech](/upper/week03)      | Future forms                           |
-| 4    | [Art and Creativity](/upper/week04)    | Determiners                            |
-| 7    | [Customs and Behaviour](/upper/week07) | Conditionals (zero and first)          |
-| 8    | [Hopes and Ambitions](/upper/week08)   | Conditionals (second, third and mixed) |
+| Week | Theme                                  | Grammar Focus                          | Revision                         |
+| ---- | -------------------------------------- | -------------------------------------- | -------------------------------- |
+| 3    | [Science and Tech](/upper/week03)      | Future forms                           |                                  |
+| 4    | [Art and Creativity](/upper/week04)    | Determiners                            |                                  |
+| 7    | [Customs and Behaviour](/upper/week07) | Conditionals (zero and first)          | [week 7](/upper/week07/revision) |
+| 8    | [Hopes and Ambitions](/upper/week08)   | Conditionals (second, third and mixed) |                                  |

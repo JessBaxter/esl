@@ -16,8 +16,6 @@ Here are some grammar activities to do with the second, third, and mixed conditi
 
 | GRAMMAR POINTS                                                                                                                       | SOURCE             |
 | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------ |
-| [Conditionals: zero](https://7esl.com/zero-conditional/)                                                                             | 7esl.com           |
-| [Conditionals: first](https://7esl.com/first-conditional/)                                                                           | 7esl.com           |
 | [Conditionals: second](https://7esl.com/second-conditional/)                                                                         | 7esl.com           |
 | [Conditionals: third](https://7esl.com/third-conditional/)                                                                           | 7esl.com           |
 | [Conditionals: mixed](https://7esl.com/mixed-conditional/)                                                                           | 7esl.com           |
@@ -26,7 +24,13 @@ Here are some grammar activities to do with the second, third, and mixed conditi
 | [Conditionals: third and mixed](https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/conditionals-third-mixed)              | britishcouncil.org |
 | [Conditionals: zero, first and second](https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/conditionals-zero-first-second) | britishcouncil.org |
 
-## Listneing Practice
+| THE OTHER CONDITIONALS                                                             | SOURCE     |
+| ---------------------------------------------------------------------------------- | ---------- |
+| [A YouTube video on all conditionals](https://www.youtube.com/watch?v=FH3ThwR99LM) | mmmEnglish |
+| [Conditionals: zero](https://7esl.com/zero-conditional/)                           | 7esl.com   |
+| [Conditionals: first](https://7esl.com/first-conditional/)                         | 7esl.com   |
+
+## Listening Practice
 
 Here are three listening activities that fit into this week's theme. Start with the **B1: Intermediate** link and complete those activities. Once you've done that, try the **B2: Upper Intermediate** and **C1: Advanced** links.
 
