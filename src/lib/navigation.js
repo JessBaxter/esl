@@ -28,7 +28,8 @@ export const navigation = [
       // { title: 'Writing', href: '/skills/writing' },
       // { title: 'Listening', href: '/skills/listening' },
       { title: 'Speaking', href: '/skills/speaking' },
-      { title: 'Grammar', href: '/grammar' },
+      { title: 'Grammar', href: '/skills/grammar' },
+      { title: 'Vocabulary', href: '/skills/vocabulary' },
     ],
   },
   {
