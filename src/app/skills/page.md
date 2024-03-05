@@ -12,12 +12,16 @@ Welcome to our Skills section! Here, you'll learn important language skills: rea
 
 {% quick-links %}
 
-{% quick-link title="Reading" icon="installation" href="/skills/reading" description="Explore reading exercises to boost your understanding." /%}
+{% quick-link title="Reading" icon="installation" href="/skills/reading" description="Explore reading exercises." /%}
 
-{% quick-link title="Writing" icon="installation" href="/skills/writing" description="Practise your writing with fun activities." /%}
+<!-- {% quick-link title="Writing" icon="installation" href="/skills/writing" description="Practise your writing." /%} -->
 
-{% quick-link title="Listening" icon="installation" href="/skills/listening" description="Improve your listening skills through engaging audio." /%}
+<!-- {% quick-link title="Listening" icon="installation" href="/skills/listening" description="Improve your listening skills." /%} -->
 
-{% quick-link title="Speaking" icon="installation" href="/skills/speaking" description="Enhance your speaking with interactive challenges." /%}
+{% quick-link title="Speaking" icon="installation" href="/skills/speaking" description="Enhance your speaking skills." /%}
+
+{% quick-link title="Grammar" icon="installation" href="/skills/grammar" description="Refine your grammar." /%}
+
+{% quick-link title="Vocabulary" icon="installation" href="/skills/vocabulary" description="Expand your vocabulary." /%}
 
 {% /quick-links %}
