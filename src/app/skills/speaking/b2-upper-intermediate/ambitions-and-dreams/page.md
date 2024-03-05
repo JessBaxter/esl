@@ -3,7 +3,7 @@ title: Ambitions and dreams
 nextjs:
   metadata:
     title: 'Ambitions and dreams'
-    description: This is a collection of 50 'ambitions and dreams' questions, focusing on learning English in Australia.
+    description: This is a collection of 50 'ambitions and dreams' questions, for students learning English in Australia.
 ---
 
 1. What's your biggest dream in life?

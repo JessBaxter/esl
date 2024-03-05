@@ -3,7 +3,7 @@ title: Studying in Australia
 nextjs:
   metadata:
     title: 'Studying in Australia'
-    description: This is a collection of 50 'studying in Australia', focusing on learning English in Australia.
+    description: This is a collection of 50 'studying in Australia', for students learning English in Australia.
 ---
 
 1. What inspired you to start learning English, and how has that motivation evolved over time?

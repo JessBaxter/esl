@@ -3,7 +3,7 @@ title: Customs and behaviours
 nextjs:
   metadata:
     title: 'Customs and behaviours'
-    description: This is a collection of 50 'customs and behaviours' questions, focusing on learning English in Australia.
+    description: This is a collection of 50 'customs and behaviours' questions, for students learning English in Australia.
 ---
 
 1. What's a unique custom from your culture that you think others should adopt?
