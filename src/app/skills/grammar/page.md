@@ -12,6 +12,6 @@ Welcome to our grammar section! Here, you'll learn and practise all that pesky E
 
 {% quick-links %}
 
-{% quick-link title="Reading" icon="installation" href="/grammar/prepositions/how-to-use-to-and-for" description="Prepositions: to and for." /%}
+{% quick-link title="Prepositions" icon="installation" href="/grammar/prepositions/how-to-use-to-and-for" description="to and for." /%}
 
 {% /quick-links %}
