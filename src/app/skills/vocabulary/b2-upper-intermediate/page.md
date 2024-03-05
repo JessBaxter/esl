@@ -19,7 +19,7 @@ Here are a few targetted topics that you should have an understanding of at the 
 | Suffixes               | [EnglishCLUB.com](https://www.englishclub.com/vocabulary/suffixes.php)     |
 | Prepositions           | [EnglishCLUB.com](https://www.englishclub.com/vocabulary/prepositions.php) |
 | Adverbs                | [EnglishCLUB.com](https://www.englishclub.com/vocabulary/adverbs.php)      |
-| Figures of Speech      | [](https://www.englishclub.com/vocabulary/figures.php)                     |
+| Figures of Speech      | [EnglishCLUB.com](https://www.englishclub.com/vocabulary/figures.php)      |
 | Euphemism              | [EnglishCLUB.com](https://www.englishclub.com/vocabulary/euphemism.php)    |
 | Sayings                | [EnglishCLUB.com](https://www.englishclub.com/ref/Sayings/)                |
 | Conversational Phrases | [EnglishCLUB.com](https://www.englishclub.com/ref/Conversational_Phrases/) |
