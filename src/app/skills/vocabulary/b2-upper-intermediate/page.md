@@ -12,7 +12,7 @@ For learning new vocabulary, my favourite place is the [British Council's LearnE
 
 Alternatively, you might like to try some [vocabulary quizzes](https://www.englishclub.com/esl-quizzes/vocabulary/), which focus on a variety of topics and range from easy to more challenging words.
 
-Here are a few targetted topics that you should have an understanding of at the Upper Intermediate level:
+Lastly, here are a few targetted topics that you should have an understanding of at the Upper Intermediate level:
 
 | TOPIC                  | SITE                                                                       |
 | ---------------------- | -------------------------------------------------------------------------- |
