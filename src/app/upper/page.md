@@ -16,7 +16,6 @@ Welcome Upper Intermediate ELICOS students! This section is specially designed t
 | 2    | [Storytelling](/upper/week02)           | Past tenses                   |   |
 | 5    | [Development](/upper/week05)           | Gerunds and infinitives       |   |
 | 6    | [Alternative Travel](/upper/week06)     | Negatives and questions       |   |
-| 10   | [Talented People](/upper/week10)        | Relative clauses              |   |
 | 11   | [Knowledge and Learning](/upper/week11) | Modals                        |   |
 | 12   | [Money](/upper/week12)                  | Adverbs                       |   |
 
@@ -29,3 +28,4 @@ Welcome Upper Intermediate ELICOS students! This section is specially designed t
 | 7    | [Customs and Behaviour](/upper/week07) | Conditionals (zero and first)          | [week 7](/upper/week07/revision) |
 | 8    | [Hopes and Ambitions](/upper/week08)   | Conditionals (second, third and mixed) | [week 8](/upper/week08/revision) |
 | 9    | [The News](/upper/week09)              | Reported speech                        |                                  |
+| 10   | [Talented People](/upper/week10)       | Relative clauses                       |                                  |
