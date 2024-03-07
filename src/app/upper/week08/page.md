@@ -40,8 +40,8 @@ Here are three listening activities that fit into this week's theme. Start with 
 
 _If you try the **B2** and **C1** activities and find them to be too challenging, use that same site to practise **B1** activities on a daily basis._
 
-| LEVEL                                                                                                                 | ARTICLE            | SOURCE |
-| --------------------------------------------------------------------------------------------------------------------- | ------------------ | ------ |
+| LEVEL                                                                                                                 | SOURCE             |
+| --------------------------------------------------------------------------------------------------------------------- | ------------------ |
 | [B1: Intermediate](https://learnenglish.britishcouncil.org/skills/listening/b1-listening/work-life-balance)           | britishcouncil.org |
 | [B2: Upper Intermediate](https://learnenglish.britishcouncil.org/skills/listening/b2-listening/talk-about-motivation) | britishcouncil.org |
 | [C1: Advanced](https://learnenglish.britishcouncil.org/skills/listening/c1-listening/challenges-work)                 | britishcouncil.org |
@@ -52,8 +52,8 @@ Here are three articles that fit into this week's theme. Start with the **B1: In
 
 _If you try the **B2** and **C1** articles and find them to be too challenging, use that same site to practise **B1** reading on a daily basis._
 
-| LEVEL                                                                                                          | ARTICLE            | SOURCE |
-| -------------------------------------------------------------------------------------------------------------- | ------------------ | ------ |
+| LEVEL                                                                                                          | SOURCE             |
+| -------------------------------------------------------------------------------------------------------------- | ------------------ |
 | [B1: Intermediate](https://learnenglish.britishcouncil.org/skills/reading/b1-reading/social-media-influencers) | britishcouncil.org |
 | [B2: Upper Intermediate](https://learnenglish.britishcouncil.org/skills/reading/b2-reading/work-life-balance)  | britishcouncil.org |
 | [C1: Advanced](https://learnenglish.britishcouncil.org/skills/reading/c1-reading/sustainable-supermarkets)     | britishcouncil.org |
