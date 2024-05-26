@@ -1,0 +1,270 @@
+---
+import Nav from "../../../../components/Nav.astro";
+import Head from "../../../../components/Head.astro";
+import Footer from "../../../../components/Footer.astro";
+import Divider from "../../../../components/Divider.astro";
+
+const week = 5;
+const topic = "the environment";
+
+const title = `Pre-Intermediate week ${week} class materials - JESS.FOO`;
+const description = `ELICOS CEFR A2 Pre-Intermediate class materials for ${topic}.`;
+
+const grammars = [
+  {
+    title: "Articles: 'a', 'an', 'the'",
+    activity: 1,
+    summary: "Do you know how to use 'a', 'an' and 'the'?",
+    link: "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/articles-a-an-the",
+  },
+  {
+    title: "Articles: 'the' or no article",
+    activity: 2,
+    summary:
+      "Do you know when you need to use 'the' in common phrases and place names?",
+    link: "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/articles-the-or-no-article",
+  },
+  {
+    title: "Quantifiers: 'few', 'a few', 'little' and 'a bit of'",
+    activity: 3,
+    summary:
+      "Do you know how to use 'a few', 'few', 'very little' and 'a bit of'?",
+    link: "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/quantifiers-few-a-few-little-a-bit",
+  },
+  {
+    title: "Quantifiers",
+    activity: 4,
+    summary: "Do you know how to use quantifiers?",
+    link: "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/quantifiers",
+  },
+  {
+    title: "Specific and general determiners",
+    activity: 5,
+    summary:
+      "We use a specific determiner when we believe the listener/reader knows exactly to what we are referring.",
+    link: "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/specific-general-determiners",
+  },
+  {
+    title: "The indefinite article: 'a' and 'an'",
+    activity: 6,
+    summary: "Do you know how to use indefinite articles?",
+    link: "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/indefinite-article",
+  },
+  {
+    title: "The definite article: 'the'",
+    activity: 7,
+    summary: "Do you know how to use the definite article?",
+    link: "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/definite-article",
+  },
+];
+const speakings = [
+  {
+    title: "50 conversation questions (A2)",
+    activity: 1,
+    summary:
+    `Use any of these 50 questions to have a conversation about ${topic}.`,
+    link: `/class/a2/week${week}/speaking`,
+  },
+];
+const vocabularys_preint = [
+  {
+    title: "Nature 1 (A2)",
+    activity: 1,
+    summary: "Vocabulary exercises to help learn words to talk about nature.",
+    link: "https://learnenglish.britishcouncil.org/vocabulary/a1-a2-vocabulary/nature-1",
+  },
+  {
+    title: "Weather (A2)",
+    activity: 2,
+    summary:
+      "Do these exercises and learn some words to talk about the weather.",
+    link: "https://learnenglish.britishcouncil.org/vocabulary/a1-a2-vocabulary/weather",
+  },
+];
+const vocabularys_int = [
+  {
+    title: "Beaches (B1)",
+    activity: 1,
+    summary:
+      "Are you ready to go to the beach? Do these exercises and learn vocabulary to talk about the beach.",
+    link: "https://learnenglish.britishcouncil.org/vocabulary/b1-b2-vocabulary/beaches",
+  },
+  {
+    title: "Gardens (B1)",
+    activity: 2,
+    summary:
+      "Do these exercises and learn words for things you can see in gardens.",
+    link: "https://learnenglish.britishcouncil.org/vocabulary/b1-b2-vocabulary/gardens",
+  },
+  {
+    title: "Other animals (B1)",
+    activity: 3,
+    summary:
+      "Do these vocabulary exercises and learn the names of some birds, insects and other animals.",
+    link: "https://learnenglish.britishcouncil.org/vocabulary/b1-b2-vocabulary/other-animals",
+  },
+  {
+    title: "Wild animals (B1)",
+    activity: 4,
+    summary: "Do these exercises and learn the names of some wild animals.",
+    link: "https://learnenglish.britishcouncil.org/vocabulary/b1-b2-vocabulary/wild-animals",
+  },
+];
+---
+
+<html lang="en">
+  <head>
+    <Head title={title} description={description} />
+  </head>
+  <body class="bg-white dark:bg-slate-800">
+    <Nav />
+    <div class="bg-white dark:bg-slate-800 pt-24 sm:pt-32">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl lg:mx-0">
+          <h1
+            class="font-bold tracking-tight text-slate-900 dark:text-slate-100 text-5xl">
+            Week {week}
+          </h1>
+          <p class="mt-6 text-lg leading-8 text-slate-600 dark:text-slate-300">
+            This week we're learning about {topic}.
+          </p>
+        </div>
+
+        <!-- GRAMMAR -->
+        <div class="mx-auto mt-20 max-w-2xl lg:mt-24 lg:max-w-none">
+          <h2
+            class="pb-10 font-bold tracking-tight text-slate-900 dark:text-slate-100 text-3xl">
+            Grammar activities
+          </h2>
+          <dl
+            class="grid max-w-xl grid-cols-1 lg:gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+            {
+              grammars.map((grammar) => (
+                <a
+                  href={grammar.link}
+                  class="text-sm font-semibold leading-6 text-teal-600">
+                  <div class="flex flex-col bg-teal-50 dark:bg-slate-700 p-5">
+                    <dt class="text-base font-bold leading-7 text-slate-900 dark:text-slate-100">
+                      Grammar {grammar.activity}: {grammar.title}
+                    </dt>
+                    <dd class="mt-1 flex flex-auto flex-col text-base font-normal leading-7 text-slate-600 dark:text-slate-300">
+                      <p class="flex-auto">{grammar.summary}</p>
+                      <p class="mt-6 font-semibold text-teal-600 dark:text-teal-300">
+                        Begin grammar activity {grammar.activity}{" "}
+                        <span aria-hidden="true">→</span>
+                      </p>
+                    </dd>
+                  </div>
+                </a>
+              ))
+            }
+          </dl>
+        </div>
+
+        <Divider />
+
+        <!-- VOCAB PRE-INTERMEDIATE -->
+        <div class="mx-auto max-w-2xl lg:mt-24 lg:max-w-none">
+          <h2
+            class="pb-10 font-bold tracking-tight text-slate-900 dark:text-slate-100 text-3xl">
+            Pre-Intermediate Vocabulary activities
+          </h2>
+          <dl
+            class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+            {
+              vocabularys_preint.map((vocab_preint) => (
+                <a
+                  href={vocab_preint.link}
+                  class="text-sm font-semibold leading-6 text-teal-600">
+                  <div class="flex flex-col bg-fuchsia-50 dark:bg-slate-700 p-5">
+                    <dt class="text-base font-bold leading-7 text-slate-900 dark:text-slate-100">
+                      Pre-Int Vocabulary {vocab_preint.activity}:{" "}
+                      {vocab_preint.title}
+                    </dt>
+                    <dd class="mt-1 flex flex-auto flex-col text-base font-normal leading-7 text-slate-600 dark:text-slate-300">
+                      <p class="flex-auto">{vocab_preint.summary}</p>
+                      <p class="mt-6 font-semibold text-teal-600 dark:text-teal-300">
+                        Begin Pre-Int vocabulary activity{" "}
+                        {vocab_preint.activity}{" "}
+                        <span aria-hidden="true">→</span>
+                      </p>
+                    </dd>
+                  </div>
+                </a>
+              ))
+            }
+          </dl>
+        </div>
+
+        <Divider />
+
+        <!-- VOCAB INTERMEDIATE -->
+        <div class="mx-auto max-w-2xl lg:mt-24 lg:max-w-none">
+          <h2
+            class="pb-10 font-bold tracking-tight text-slate-900 dark:text-slate-100 text-3xl">
+            Intermediate Vocabulary activities
+          </h2>
+          <dl
+            class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+            {
+              vocabularys_int.map((vocab_int) => (
+                <a
+                  href={vocab_int.link}
+                  class="text-sm font-semibold leading-6 text-teal-600">
+                  <div class="flex flex-col bg-fuchsia-50 dark:bg-slate-700 p-5">
+                    <dt class="text-base font-bold leading-7 text-slate-900 dark:text-slate-100">
+                      Intermediate Vocabulary {vocab_int.activity}:{" "}
+                      {vocab_int.title}
+                    </dt>
+                    <dd class="mt-1 flex flex-auto flex-col text-base font-normal leading-7 text-slate-600 dark:text-slate-300">
+                      <p class="flex-auto">{vocab_int.summary}</p>
+                      <p class="mt-6 font-semibold text-teal-600 dark:text-teal-300">
+                        Begin Intermediate vocabulary activity{" "}
+                        {vocab_int.activity} <span aria-hidden="true">→</span>
+                      </p>
+                    </dd>
+                  </div>
+                </a>
+              ))
+            }
+          </dl>
+        </div>
+
+        <Divider />
+
+        <!-- SPEAKING -->
+        <div class="mx-auto max-w-2xl lg:mt-24 lg:max-w-none">
+          <h2
+            class="pb-10 font-bold tracking-tight text-slate-900 dark:text-slate-100 text-3xl">
+            Speaking activities
+          </h2>
+          <dl
+            class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+            {
+              speakings.map((speaking) => (
+                <a
+                  href={speaking.link}
+                  class="text-sm font-semibold leading-6 text-teal-600">
+                  <div class="flex flex-col bg-blue-50 dark:bg-slate-700 p-5">
+                    <dt class="text-base font-bold leading-7 text-slate-900 dark:text-slate-100">
+                      Speaking {speaking.activity}: {speaking.title}
+                    </dt>
+                    <dd class="mt-1 flex flex-auto flex-col text-base font-normal leading-7 text-slate-600 dark:text-slate-300">
+                      <p class="flex-auto">{speaking.summary}</p>
+                      <p class="mt-6 font-semibold text-teal-600 dark:text-teal-300">
+                        Begin speaking activity {speaking.activity}{" "}
+                        <span aria-hidden="true">→</span>
+                      </p>
+                    </dd>
+                  </div>
+                </a>
+              ))
+            }
+          </dl>
+        </div>
+
+        <Footer />
+      </div>
+    </div>
+  </body>
+</html>

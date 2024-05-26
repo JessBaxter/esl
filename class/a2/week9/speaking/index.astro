@@ -1,0 +1,94 @@
+---
+import Nav from "../../../../../components/Nav.astro";
+import Head from "../../../../../components/Head.astro";
+import Footer from "../../../../../components/Footer.astro";
+
+const week = 9;
+const topic = "holidays";
+
+const title = `Pre-Intermediate week ${week} speaking materials - JESS.FOO`;
+const description = `ELICOS CEFR A2 Pre-Intermediate speaking materials on the topic of ${topic}.`;
+---
+
+<html lang="en">
+  <head>
+    <Head title={title} description={description} />
+  </head>
+  <body class="bg-white dark:bg-slate-800">
+    <Nav />
+    <!-- CONTENT -->
+    <div
+      class="prose dark:prose-dark max-w-none bg-white dark:bg-slate-800 py-24 sm:py-32"
+    >
+      <div class="mx-auto max-w-2xl px-6 lg:px-8">
+        <h1>50 Conversation Questions</h1>
+        <p>
+          Here are 50 conversation questions for you to practise speaking in
+          class. You can use these questions to practise speaking with your
+          classmates or with your teacher.
+        </p>
+        <p>
+          <ol>
+            <!-- Past Continuous -->
+            <li>What were you doing during your last holiday?</li>
+            <li>Were you visiting any new places during your last vacation?</li>
+            <li>Were you spending time with family or friends last holiday season?</li>
+            <li>What was the weather like while you were on your last holiday?</li>
+            <li>Were you trying any new foods during your last trip?</li>
+            <li>Were you taking a lot of photos on your last vacation?</li>
+            <li>Were you relaxing at home or going out during your last break?</li>
+            <li>Were you playing any sports or games on your last holiday?</li>
+            <li>Were you reading any books during your last holiday?</li>
+            <li>What were you most excited about during your last vacation?</li>
+            <!-- Present Perfect -->
+            <li>Have you ever traveled to another country for a holiday?</li>
+            <li>Have you visited any new places recently?</li>
+            <li>Have you tried any new activities on a holiday?</li>
+            <li>Have you ever celebrated a holiday in a different way?</li>
+            <li>Have you met anyone interesting on a holiday?</li>
+            <li>Have you taken a lot of photos on your holidays?</li>
+            <li>Have you ever had a holiday that you didn't enjoy?</li>
+            <li>Have you planned any holidays for this year?</li>
+            <li>Have you been on a holiday with friends?</li>
+            <li>Have you ever gone camping on a holiday?</li>
+            <!-- First Conditional -->
+            <li>If it rains during your holiday, what will you do?</li>
+            <li>If you find a great restaurant on holiday, will you eat there?</li>
+            <li>If you see something interesting on holiday, will you take a photo?</li>
+            <li>If you have a long weekend, will you go on a short trip?</li>
+            <li>If you have time off work or school, will you travel?</li>
+            <li>If you go on holiday with friends, what will you do?</li>
+            <li>If you visit a new city, will you explore it?</li>
+            <li>If your holiday plans change, will you be flexible?</li>
+            <li>If you enjoy a place, will you visit it again?</li>
+            <li>If you find a good deal, will you book a holiday?</li>
+            <!-- Past Perfect -->
+            <li>Had you traveled outside your country before your last holiday?</li>
+            <li>Had you tried any new foods before your last vacation?</li>
+            <li>Had you planned your activities before you went on your last holiday?</li>
+            <li>Had you visited that place before your last holiday?</li>
+            <li>Had you saved money for your last trip?</li>
+            <li>Had you packed your bags well before your trip started?</li>
+            <li>Had you researched about your destination before your holiday?</li>
+            <li>Had you ever gone on a holiday alone before?</li>
+            <li>Had you celebrated a holiday in a special way before?</li>
+            <li>Had you shared your holiday plans with friends before you left?</li>
+            <!-- Present Continuous -->
+            <li>Are you planning any holidays right now?</li>
+            <li>Are you looking forward to any holidays soon?</li>
+            <li>Are you saving money for a holiday?</li>
+            <li>Are you talking with friends about holiday plans?</li>
+            <li>Are you reading about holiday destinations?</li>
+            <li>Are you thinking about where to go for your next holiday?</li>
+            <li>Are you buying anything special for your holiday?</li>
+            <li>Are you learning about different cultures for your trip?</li>
+            <li>Are you decorating your home for any upcoming holidays?</li>
+            <li>Are you excited about any holidays coming up?</li>
+          </ol>
+        </p>
+      </div>
+    </div>
+
+    <Footer />
+  </body>
+</html>
