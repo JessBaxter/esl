@@ -1,1 +1,0 @@
-import{i as e}from"./vocabImgExercise.DSikesCJ.js";import"./hoisted.uP2dCDfU.js";document.addEventListener("DOMContentLoaded",e);
