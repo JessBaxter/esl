@@ -3,8 +3,7 @@ import DefaultLayout from '../../../layouts/DefaultLayout.astro'
 import { Media, Breadcrumbs, BreadcrumbsItem, Notification } from 'accessible-astro-components'
 import { beginnerScope } from '../../../assets/data/begScope.js'
 
-
-const weekData = beginnerScope[1]; // Change to correct week (zero-indexed)
+const weekData = beginnerScope[1] // Change to correct week (zero-indexed)
 
 const { ex1 = `/class-images/beginner/week${weekData.week}-vocab-ex1.webp` } = Astro.props
 const { ex2 = `/class-images/beginner/week${weekData.week}-vocab-ex2.webp` } = Astro.props
@@ -183,6 +182,6 @@ const { ex5 = `/class-images/beginner/week${weekData.week}-vocab-ex5.webp` } = A
 </style>
 
 <script>
-  import {initVocabImgExercise} from '../../../assets/scripts/vocabImgExercise.js'
-  document.addEventListener('DOMContentLoaded', initVocabImgExercise);
+  import { initVocabImgExercise } from '../../../assets/scripts/vocabImgExercise.js'
+  document.addEventListener('astro:page-load', initVocabImgExercise)
 </script>
