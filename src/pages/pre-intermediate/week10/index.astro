@@ -1,0 +1,109 @@
+---
+import DefaultLayout from '../../../layouts/DefaultLayout.astro'
+import { Breadcrumbs, BreadcrumbsItem } from 'accessible-astro-components'
+import { preintScope } from '../../../assets/data/preintScope.js'
+
+import Feature from '../../../components/Feature.astro'
+
+
+const weekData = preintScope[9]; // Change to correct week (zero-indexed)
+
+---
+
+<DefaultLayout title={`Pre-intermediate Week ${weekData.week}`}>
+  <section class="container">
+    <div class="mb-10">
+      <Breadcrumbs>
+        <BreadcrumbsItem href="/" label="Home" />
+        <BreadcrumbsItem href="/pre-intermediate" label="Pre-intermediate" />
+        <BreadcrumbsItem currentPage={true} label={`Week ${weekData.week}`} />
+      </Breadcrumbs>
+    </div>
+    <div class="space-content container">
+      <h1>Week {weekData.week}: {weekData.topic}</h1>
+      <div>
+        <ul>
+          <li><b>Grammar:</b> {weekData.grammar.join(', ')}</li>
+          <li><b>Vocabulary:</b> {weekData.vocabulary.join(', ')}</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLASS CONTENT -->
+  <section class="mb-12 mt-32">
+    <div class="container">
+      <div class="grid grid-cols-1 gap-32 md:grid-cols-2">
+        <div class="space-content">
+          <h2>Grammar Activities</h2>
+            <Feature icon="mdi:brain" title="Passives" url="https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/passives">
+              <span class="italic">Click to go to the British Council LearnEnglish site!</span>
+            </Feature>
+            <Feature icon="mdi:brain" title="Used to" url="https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/different-uses-of-used-to">
+              <span class="italic">Click to go to the British Council LearnEnglish site!</span>
+            </Feature>
+        </div>
+        <div class="space-content">
+          <h2>Vocabulary Activities</h2>
+            <Feature icon="mdi:format-letter-case" title="Shopping" url="https://learnenglish.britishcouncil.org/vocabulary/a1-a2-vocabulary/shopping">
+              <span class="italic">Click to go to the British Council LearnEnglish site!</span>
+            </Feature>
+            <Feature icon="mdi:format-letter-case" title="Clothes 1" url="https://learnenglish.britishcouncil.org/vocabulary/a1-a2-vocabulary/clothes-1">
+              <span class="italic">Click to go to the British Council LearnEnglish site!</span>
+            </Feature>
+            <Feature icon="mdi:format-letter-case" title="Clothes 2" url="https://learnenglish.britishcouncil.org/vocabulary/a1-a2-vocabulary/clothes-2">
+              <span class="italic">Click to go to the British Council LearnEnglish site!</span>
+            </Feature>
+            <Feature icon="mdi:format-letter-case" title="Everyday objects" url="https://learnenglish.britishcouncil.org/vocabulary/a1-a2-vocabulary/everyday-objects">
+              <span class="italic">Click to go to the British Council LearnEnglish site!</span>
+            </Feature>
+            <Feature icon="mdi:format-letter-case" title="Money" url="https://learnenglish.britishcouncil.org/vocabulary/a1-a2-vocabulary/money">
+              <span class="italic">Click to go to the British Council LearnEnglish site!</span>
+            </Feature>
+        </div>        
+        <div class="space-content">
+          <h2>Reading Activities</h2>
+            <Feature icon="ion:book-outline" title="Shopping signs and notices" url="https://learnenglishteens.britishcouncil.org/skills/reading/a2-reading/shopping-signs-notices">
+              <span class="italic">Click to go to the British Council LearnEnglish site!</span>
+            </Feature>
+        </div>
+        <div class="space-content">
+          <h2>Listening Activities</h2>
+               <Feature icon="ion:ear-outline" title="Shopping for clothes" url="https://learnenglishteens.britishcouncil.org/skills/listening/a2-listening/shopping-clothes">
+              <span class="italic">Click to go to the British Council LearnEnglish site!</span>
+            </Feature>
+        </div>      
+        <div class="space-content">
+          <h2>Speaking Activities</h2>
+             <Feature icon="ion:chatbubble-ellipses" title="50 conversation questions" url=`/pre-intermediate/week${weekData.week}/speaking`>
+              <span class="italic">Check out these conversation questions!</span>
+            </Feature>
+        </div>
+      </div>
+    </div>
+  </section>
+</DefaultLayout>
+
+<style>
+  @media (max-width: 640px) {
+    .exercise {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .exercise .button {
+      width: 100%;
+      margin-right: 0 !important;
+      margin-bottom: 0.5rem;
+    }
+
+    .exercise .button:last-child {
+      margin-bottom: 0;
+    }
+  }
+</style>
+
+<script>
+  import {initVocabImgExercise} from '../../../assets/scripts/vocabImgExercise.js'
+  document.addEventListener('DOMContentLoaded', initVocabImgExercise);
+</script>

@@ -1,0 +1,80 @@
+export const preintScope = [
+  {
+    week: 1,
+    topic: 'Lifestyle',
+    grammar: ['present simple', 'present continuous', 'adverbs and expressions of frequency'],
+    vocabulary: ['everyday routines', 'medical problems'],
+  },
+  {
+    week: 2,
+    topic: 'Competitions',
+    grammar: ['verbs for rules', '-ing form'],
+    vocabulary: ['sport'],
+  },
+  {
+    week: 3,
+    topic: 'Transport',
+    grammar: ['comparatives and superlatives', 'as ... as', 'comparative modifiers'],
+    vocabulary: [
+      'ways of travelling',
+      'transport nouns',
+      'transport adjectives',
+      'transport verbs',
+      'taking transport',
+    ],
+  },
+  {
+    week: 4,
+    topic: 'Challenges',
+    grammar: ['past simple', 'past continuous'],
+    vocabulary: ['risks and challenges', 'personal qualities'],
+  },
+  {
+    week: 5,
+    topic: 'The environment',
+    grammar: ['quantifiers', 'articles'],
+    vocabulary: ['materials', 'recycling', 'results and figures'],
+  },
+  {
+    week: 6,
+    topic: 'Stages in life',
+    grammar: ['to + infinitive', 'future forms'],
+    vocabulary: ['life events', 'describing age', 'celebrations'],
+  },
+  {
+    week: 7,
+    topic: 'Work',
+    grammar: ['present perfect and past simple', 'prepositions of place and movement'],
+    vocabulary: ['language to describe jobs', 'jobs', 'parts of a building', 'job adverts'],
+  },
+  {
+    week: 8,
+    topic: 'Technology',
+    grammar: ['zero and first conditional', 'defining relative clauses'],
+    vocabulary: ['internet verbs', 'instructions'],
+  },
+  {
+    week: 9,
+    topic: 'Holidays',
+    grammar: ['past perfect simple', 'subject questions'],
+    vocabulary: ['holiday collocations'],
+  },
+  {
+    week: 10,
+    topic: 'Products',
+    grammar: ['the passive', 'used to'],
+    vocabulary: ['describing design', 'websites'],
+  },
+  {
+    week: 11,
+    topic: 'History',
+    grammar: ['reported speech'],
+    vocabulary: ['communication', 'ancient history'],
+  },
+  {
+    week: 12,
+    topic: 'Nature',
+    grammar: ['second conditional', 'indefinite pronouns'],
+    vocabulary: ['extreme weather', 'nature'],
+  },
+]

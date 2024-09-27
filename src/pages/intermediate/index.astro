@@ -1,0 +1,42 @@
+---
+import DefaultLayout from '../../layouts/DefaultLayout.astro'
+// import { Accordion, AccordionItem } from 'accessible-astro-components'
+// import { intScope } from '../../assets/data/intScope.js'
+---
+
+<DefaultLayout title="Intermediate Course - B1">
+  <section class="my-12">
+    <div class="space-content container">
+      <h1>Intermediate</h1>
+      <h2>CEFR B1</h2>
+    </div>
+  </section>
+  <section class="mb-12 mt-32">
+    <div class="container">
+      <div class="grid grid-cols-1 gap-32 md:grid-cols-2">
+        <div class="space-content">
+          <h2>Coming soon!</h2>
+          <p>Check back soon. I will hopefully have some content ready for you!</p>
+          <!-- <h2>Choose a week</h2>
+          <Accordion>
+            {intScope.map((week) => (
+              <AccordionItem header={`${week.week}: ${week.topic}`}>
+                <ul class="mb-10">
+                  <li><b>Grammar:</b> {week.grammar.join(', ')}</li>
+                  <li><b>Vocabulary:</b> {week.vocabulary.join(', ')}</li>
+                </ul>
+                <a class="button" href={`/intermediate/week${week.week}`}>Let's go!</a>
+              </AccordionItem>
+            ))}
+          </Accordion> -->
+        </div>
+      </div>
+    </div>
+  </section>
+</DefaultLayout>
+
+<style is:global>
+  .accordion__item button {
+    text-align: left !important;
+  }
+</style>

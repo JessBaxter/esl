@@ -1,0 +1,262 @@
+---
+import DefaultLayout from '../../layouts/DefaultLayout.astro'
+import { Accordion, AccordionItem, Card } from 'accessible-astro-components'
+
+const toolsForEducators = [
+  {
+    title: 'Jumble Words',
+    description: 'Jumble the words in a sentence, with options to maintain punctuation and capitalisation.',
+    image: '/teacher-tools-jumble-words-image.webp',
+    url: '/teachers/tools/jumble-words',
+    footer: '© 2024 Jess Baxter',
+  },
+  {
+    title: 'Aspect Ratio Calculator',
+    description: 'Calculates the dimensions for 16:9 or 4:3 media. All you need is the width or height you desire!',
+    image: '/teacher-tools-aspect-ratio-image.webp',
+    url: '/teachers/tools/aspect-ratio-calculator',
+    footer: '© 2024 Jess Baxter',
+  },
+]
+---
+
+<DefaultLayout title="Resources for ELICOS teachers">
+  <section class="my-12">
+    <div class="space-content container">
+      <h1>Resources for ELICOS teachers</h1>
+      <p class="text-2xl">
+        This is a growing collection of some resources I've either found or built myself, for use in my ELICOS
+        classroom. Hopefully you find something useful!
+      </p>
+    </div>
+  </section>
+  <section class="mb-12 mt-32">
+    <div class="container">
+      <h2>Classroom Activities</h2>
+      <div class="mt-10 grid grid-cols-1 gap-32 md:grid-cols-2">
+        <div class="space-content">
+          <h3>Vocabulary</h3>
+          <Accordion>
+            <AccordionItem header="TPR Vocab">
+              <p>
+                Students learn and practise new vocabulary by performing physical actions (Total Physical Response). You
+                can watch a demo here: <a href="https://www.youtube.com/watch?v=7l87XOFLTQU"
+                  >Sadlier School on YouTube</a
+                >
+              </p>
+              <p class="mt-6">
+                <b>Level:</b> Any
+              </p>
+              <p>
+                <b>Time:</b> 15+ mins
+              </p>
+              <p class="mt-6">
+                <b>Requirements:</b>
+              </p>
+              <p>
+                <ul>
+                  <li>Definitions of target words on pieces of paper (1 per student)</li>
+                </ul>
+              </p>
+              <p class="mt-6">
+                <b>Instructions:</b>
+              </p>
+              <p>
+                <ol>
+                  <li class="list-decimal">Assign each student in your class a different vocabulary word</li>
+                  <li class="list-decimal">Have each student quickly learn the definition to their word</li>
+                  <li class="list-decimal">Have students form one large circle so they are all side by side</li>
+                  <li class="list-decimal">
+                    Start with the first student and have them loudly say their vocabulary word along with a quick
+                    motion for the word
+                  </li>
+                  <li class="list-decimal">
+                    After the student performs the action while saying the word, have the rest of the students repeat
+                    the word and motion together
+                  </li>
+                  <li class="list-decimal">Repeat until every student has given their word and motion</li>
+                  <li class="list-decimal">Go around the circle one more time for practice</li>
+                  <li class="list-decimal">
+                    That's the prep done! Now, one student does their word+motion, then someone else's. That person must
+                    do their own word+motion, then someone else's. Students must remember each other's words and motions
+                    as quickly as possible.
+                  </li>
+                </ol>
+              </p>
+            </AccordionItem>
+            <AccordionItem header="RttB Word Grab">
+              <p>Students revise learnt vocabulary by racing to grab words.</p>
+              <p class="mt-6">
+                <b>Level:</b> Any
+              </p>
+              <p>
+                <b>Time:</b> 15+ mins
+              </p>
+              <p class="mt-6">
+                <b>Requirements:</b>
+              </p>
+              <p>
+                <ul>
+                  <li class="list-disc">Target words on cards</li>
+                </ul>
+              </p>
+              <p class="mt-6">
+                <b>Instructions:</b>
+              </p>
+              <p>
+                <ol>
+                  <li class="list-decimal">Attach the vocab cards to a whiteboard, or spread them out over a desk</li>
+                  <li class="list-decimal">Divide the class into teams</li>
+                  <li class="list-decimal">
+                    The teacher says a word and the chosen student from each team runs to the front and grabs the
+                    correct card. Repeat until all cards have been nabbed. The team with the most at the end is the
+                    winner.
+                  </li>
+                </ol>
+              </p>
+              <p class="mt-6">
+                <b>Variations:</b>
+              </p>
+              <p>
+                <ul>
+                  <li class="list-disc">
+                    Indicate words by using synonyms, antonyms, definitions, part of speech, spelling patterns ... you
+                    name it!
+                  </li>
+                </ul>
+              </p>
+            </AccordionItem>
+          </Accordion>
+        </div>
+        <div class="space-content">
+          <h3>Speaking</h3>
+          <Accordion>
+            <AccordionItem header="Whispers">
+              <p>Students pass a whispered sentence down the line.</p>
+              <p class="mt-6">
+                <b>Level:</b> Pre-Int+ (CEFR A2)
+              </p>
+              <p>
+                <b>Time:</b> 5+ mins
+              </p>
+              <p class="mt-6">
+                <b>Requirements:</b>
+              </p>
+              <p>
+                <ul>
+                  <li class="list-disc">
+                    Space for the students to stand/sit in a line without being too close together
+                  </li>
+                </ul>
+              </p>
+              <p class="mt-6">
+                <b>Instructions:</b>
+              </p>
+              <p>
+                <ol>
+                  <li class="list-decimal">Have the students stand or sit in a row</li>
+                  <li class="list-decimal">Person 1 whispers a sentence to person 2, without anyone else hearing</li>
+                  <li class="list-decimal">
+                    Person 2 then needs to whisper the message to person 3 etc until it reaches the end of the line
+                  </li>
+                  <li class="list-decimal">The last person then reveals the message to the class.</li>
+                </ol>
+              </p>
+              <p class="mt-6">
+                <b>Variations:</b>
+              </p>
+              <p>
+                <ul>
+                  <li class="list-disc">
+                    Instead of a sentence, the students can spell a word, which can be either whispered, or the letters
+                    drawn on the back of the person in front
+                  </li>
+                  <li class="list-disc">
+                    You might try limiting the number of times a sentences can be repeated, or introducing a time limit
+                    for when the sentence must be finally revealed
+                  </li>
+                </ul>
+              </p>
+            </AccordionItem>
+            <AccordionItem header="Shopping List">
+              <p>Students memorise and recite an ever-increasing shopping list.</p>
+              <p class="mt-6">
+                <b>Level:</b> Elem+ (CEFR A1)
+              </p>
+              <p>
+                <b>Time:</b> 5+ mins
+              </p>
+              <p class="mt-6">
+                <b>Requirements:</b>
+              </p>
+              <p class="mt-6">
+                <b>Instructions:</b>
+              </p>
+              <p>
+                <ol>
+                  <li class="list-decimal">Have the students stand or sit in a circle</li>
+                  <li class="list-decimal">
+                    Person 1 starts by saying, 'I went to the supermarket and bought <i>some bread</i>.'
+                  </li>
+                  <li class="list-decimal">
+                    Person 2 then says, 'I went to the supermarket and bought <i>some bread</i>, and <i>an apple</i>.'
+                  </li>
+                  <li class="list-decimal">
+                    Person 3 then says, 'I went to the supermarket and bought <i>some bread</i>, <i>an apple</i>, and <i
+                      >some cheese</i
+                    >.'
+                  </li>
+                  <li class="list-decimal">
+                    Continue around the circle until someone is unable to remember all of the list.
+                  </li>
+                </ol>
+              </p>
+              <p class="mt-6">
+                <b>Variations:</b>
+              </p>
+              <p>
+                <ul>
+                  <li class="list-disc">
+                    If someone can't remember all of the items, they're 'out' and the game continues until only one
+                    person remains
+                  </li>
+                </ul>
+              </p>
+            </AccordionItem>
+          </Accordion>
+        </div>
+      </div>
+
+      <h2 class="mt-28">Tools for Educators</h2>
+      <div class="mt-10 grid grid-cols-1 gap-32 md:grid-cols-2">
+        {
+          toolsForEducators.map((tool) => (
+            <div class="space-content">
+              <Card title={tool.title} img={tool.image} url={tool.url} footer={tool.footer}>
+                {tool.description}
+              </Card>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</DefaultLayout>
+
+<style lang="scss">
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+</style>
+
+<style is:global>
+  .card__footer {
+    display: none !important;
+  }
+</style>

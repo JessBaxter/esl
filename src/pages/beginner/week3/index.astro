@@ -1,0 +1,188 @@
+---
+import DefaultLayout from '../../../layouts/DefaultLayout.astro'
+import { Media, Breadcrumbs, BreadcrumbsItem, Notification } from 'accessible-astro-components'
+import { beginnerScope } from '../../../assets/data/begScope.js'
+
+
+const weekData = beginnerScope[2]; // Change to correct week (zero-indexed)
+
+const { ex1 = `/class-images/beginner/week${weekData.week}-vocab-ex1.webp` } = Astro.props
+const { ex2 = `/class-images/beginner/week${weekData.week}-vocab-ex2.webp` } = Astro.props
+const { ex3 = `/class-images/beginner/week${weekData.week}-vocab-ex3.webp` } = Astro.props
+const { ex4 = `/class-images/beginner/week${weekData.week}-vocab-ex4.webp` } = Astro.props
+const { ex5 = `/class-images/beginner/week${weekData.week}-vocab-ex5.webp` } = Astro.props
+---
+
+<DefaultLayout title={`Beginner Week ${weekData.week}`}>
+  <section class="container">
+    <div class="mb-10">
+      <Breadcrumbs>
+        <BreadcrumbsItem href="/" label="Home" />
+        <BreadcrumbsItem href="/beginner" label="Beginner" />
+        <BreadcrumbsItem currentPage={true} label={`Week ${weekData.week}`} />
+      </Breadcrumbs>
+    </div>
+    <div class="space-content container">
+      <h1>Week {weekData.week}: {weekData.topic}</h1>
+      <div>
+        <ul>
+          <li><b>Grammar:</b> {weekData.grammar.join(', ')}</li>
+          <li><b>Vocabulary:</b> {weekData.vocabulary.join(', ')}</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLASS CONTENT -->
+  <section class="mb-12 mt-32">
+    <div class="container">
+      <div class="grid grid-cols-1 gap-32 md:grid-cols-2">
+        <div class="space-content">
+          <h2>Vocabulary Activities</h2>
+          <h3>Question 1</h3>
+          <article>
+            <Media class="rounded-lg" src={ex1} alt="Exercise 1 image" />
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>This is a ...</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> Well done! 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong> This is a ...</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="family">
+              <button class="button mr-2">people</button>
+              <button class="button mr-2 mt-2">girls</button>
+              <button class="button mr-2 mt-2">family</button>
+            </div>
+          </article>
+
+          <h3>Question 2</h3>
+          <article>
+            <Media class="rounded-lg" src={ex2} alt="Exercise 2 image" />
+
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>They have one ...</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> Well done! 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong> They have one ...</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="daughter">
+              <button class="button mr-2">children</button>
+              <button class="button mr-2 mt-2">daughter</button>
+              <button class="button mr-2 mt-2">sons</button>
+            </div>
+          </article>
+
+          <h3>Question 3</h3>
+          <article>
+            <Media class="rounded-lg" src={ex3} alt="Exercise 3 image" />
+
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>They are ...</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> Well done! 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong> They are ...</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="married">
+              <button class="button mr-2">married</button>
+              <button class="button mr-2 mt-2">hungry</button>
+              <button class="button mr-2 mt-2">divorced</button>
+            </div>
+          </article>
+
+          <h3>Question 4</h3>
+          <article>
+            <Media class="rounded-lg" src={ex4} alt="Exercise 4 image" />
+
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>They are ...</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> Well done! 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong> They are ...</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="parents">
+              <button class="button mr-2">parent</button>
+              <button class="button mr-2 mt-2">parents</button>
+              <button class="button mr-2 mt-2">child</button>
+            </div>
+          </article>
+
+          <h3>Question 5</h3>
+          <article>
+            <Media class="rounded-lg" src={ex5} alt="Exercise 5 image" />
+
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>They are ...</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> Well done! 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong> They are ...</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="children">
+              <button class="button mr-2">child</button>
+              <button class="button mr-2 mt-2">adults</button>
+              <button class="button mr-2 mt-2">children</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+</DefaultLayout>
+
+<style>
+  @media (max-width: 640px) {
+    .exercise {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .exercise .button {
+      width: 100%;
+      margin-right: 0 !important;
+      margin-bottom: 0.5rem;
+    }
+
+    .exercise .button:last-child {
+      margin-bottom: 0;
+    }
+  }
+</style>
+
+<script>
+  import {initVocabImgExercise} from '../../../assets/scripts/vocabImgExercise.js'
+  document.addEventListener('DOMContentLoaded', initVocabImgExercise);
+</script>

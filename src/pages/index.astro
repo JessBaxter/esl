@@ -1,0 +1,75 @@
+---
+import DefaultLayout from '../layouts/DefaultLayout.astro'
+import Hero from '../components/Hero.astro'
+import Feature from '../components/Feature.astro'
+---
+
+<DefaultLayout title="Home">
+  <Hero />
+  <section id="choose-your-level" class="my-64">
+    <div class="container">
+      <h2 class="mb-16 text-6xl">CEFR Levels</h2>
+      <p class="mb-16 text-xl">
+        The Common European Framework of Reference for Languages (CEFR) is an international standard for describing
+        language ability. I use it here to help you understand your current English level and set clear learning goals.
+        Each level represents <a
+          href="https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+          >a set of skills and knowledge</a
+        > that you can aim to achieve in your language learning journey.
+      </p>
+      <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+        <Feature icon="mdi:book-open-page-variant" title="Pre-A1" url="/beginner">
+          <span class="font-bold">Class level:</span> Beginner<br />
+          <span class="font-bold">Words you can use:</span> 0 - 150<br />
+          <span class="font-bold">Words you understand:</span> 0 - 300<br /><br />
+          <span class="italic">"I can't speak English."</span>
+        </Feature>
+        <Feature icon="mdi:book-open-page-variant" title="A1" url="/elementary">
+          <span class="font-bold">Class level:</span> Elementary<br />
+          <span class="font-bold">Words you can use:</span> 300<br />
+          <span class="font-bold">Words you understand:</span> 600<br /><br />
+          <span class="italic"
+            >"I know some English. I can talk about my family. I can talk about my job or school. I can talk about my
+            likes and dislikes."</span
+          >
+        </Feature>
+        <Feature icon="mdi:book-open-page-variant" title="A2" url="/pre-intermediate">
+          <span class="font-bold">Class level:</span> Pre-Intermediate<br />
+          <span class="font-bold">Words you can use:</span> 600<br />
+          <span class="font-bold">Words you understand:</span> 1,200<br /><br />
+          <span class="italic"
+            >"I know more English and want to continue learning. I know some more complex grammar and I can read, write
+            and speak in English."</span
+          >
+        </Feature>
+        <Feature icon="mdi:book-open-page-variant" title="B1" url="/intermediate">
+          <span class="font-bold">Class level:</span> Intermediate<br />
+          <span class="font-bold">Words you can use:</span> 1,200<br />
+          <span class="font-bold">Words you understand:</span> 2,500<br /><br />
+          <span class="italic"
+            >"I've been learning English for a few years now and I feel comfortable talking with native speakers. My
+            grammar skills are pretty good, but I need to improve my vocabulary and pronunciation."</span
+          >
+        </Feature>
+        <Feature icon="mdi:book-open-page-variant" title="B2" url="/upper-intermediate">
+          <span class="font-bold">Class level:</span> Upper Intermediate<br />
+          <span class="font-bold">Words you can use:</span> 2,500<br />
+          <span class="font-bold">Words you understand:</span> 5,000<br /><br />
+          <span class="italic"
+            >"I'm basically fluent in English. I'm keen to better understand how native speakers use the language, such
+            as idioms and cultural references."</span
+          >
+        </Feature>
+        <Feature icon="mdi:book-open-page-variant" title="C1" url="/advanced">
+          <span class="font-bold">Class level:</span> Advanced<br />
+          <span class="font-bold">Words you can use:</span> 5,000<br />
+          <span class="font-bold">Words you understand:</span> 10,000<br /><br />
+          <span class="italic"
+            >"I'm ready to refine my skills to achieve a level of proficiency where my language use is more nuanced and
+            more closely aligns with how native speakers communicate."</span
+          >
+        </Feature>
+      </div>
+    </div>
+  </section>
+</DefaultLayout>

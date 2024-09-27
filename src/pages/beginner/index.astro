@@ -1,0 +1,40 @@
+---
+import DefaultLayout from '../../layouts/DefaultLayout.astro'
+import { Accordion, AccordionItem } from 'accessible-astro-components'
+import { beginnerScope } from '../../assets/data/begScope.js'
+---
+
+<DefaultLayout title="Beginner Course - Pre-A1">
+  <section class="my-12">
+    <div class="space-content container">
+      <h1>Beginner</h1>
+      <h2>CEFR Pre-A1</h2>
+    </div>
+  </section>
+  <section class="mb-12 mt-32">
+    <div class="container">
+      <div class="grid grid-cols-1 gap-32 md:grid-cols-2">
+        <div class="space-content">
+          <h3>Choose a week</h3>
+          <Accordion>
+            {beginnerScope.map((week) => (
+              <AccordionItem header={`${week.week}: ${week.topic}`}>
+                <ul class="mb-10">
+                  <li><b>Grammar:</b> {week.grammar.join(', ')}</li>
+                  <li><b>Vocabulary:</b> {week.vocabulary.join(', ')}</li>
+                </ul>
+                <a class="button" href={`/beginner/week${week.week}`}>Let's go!</a>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </div>
+      </div>
+    </div>
+  </section>
+</DefaultLayout>
+
+<style is:global>
+  .accordion__item button {
+    text-align: left !important;
+  }
+</style>

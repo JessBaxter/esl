@@ -1,0 +1,65 @@
+---
+import Navigation from '../components/Navigation.astro'
+import { SkipLinks } from 'accessible-astro-components'
+---
+
+<header>
+  <SkipLinks />
+  <Navigation>
+    <li class="menu-item">
+      <a href="/">Home</a>
+    </li>
+    <li class="menu-item has-dropdown">
+      <button aria-haspopup="true" aria-expanded="false">Find Your Class</button>
+      <ul class="dropdown-menu">
+        <li class="submenu-item list-none">
+          <a href="/beginner">Beginner - Pre-A1</a>
+        </li>
+        <li class="submenu-item list-none">
+          <a href="/elementary">Elementary - A1</a>
+        </li>
+        <li class="submenu-item list-none">
+          <a href="/pre-intermediate">Pre-Intermediate - A2</a>
+        </li>
+        <li class="submenu-item list-none">
+          <a href="/intermediate">Intermediate - B1</a>
+        </li>
+        <li class="submenu-item list-none">
+          <a href="/upper-intermediate">Upper Intermediate - B2</a>
+        </li>
+        <li class="submenu-item list-none">
+          <a href="/advanced">Advanced - C1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="menu-item">
+      <a href="/about">About</a>
+    </li>
+  </Navigation>
+</header>
+
+<style lang="scss" is:global>
+  @use '../assets/scss/base/outline' as *;
+
+  header {
+    .type-icon a {
+      display: block;
+
+      [data-icon] {
+        height: auto;
+        margin-top: -4px;
+        width: 30px;
+
+        path {
+          fill: var(--action-color);
+        }
+      }
+
+      &:hover {
+        [data-icon] path {
+          fill: var(--action-color-state);
+        }
+      }
+    }
+  }
+</style>
