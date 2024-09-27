@@ -43,7 +43,7 @@ import DefaultLayout from '../../../layouts/DefaultLayout.astro'
 </DefaultLayout>
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('astro:page-load', () => {
     function calculate(inputId) {
       const isWidth = inputId.includes('width')
       const widthInput = document.getElementById('width16')

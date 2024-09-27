@@ -95,7 +95,7 @@ import DefaultLayout from '../../../layouts/DefaultLayout.astro'
 </DefaultLayout>
 
 <script type="module">
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('astro:page-load', () => {
     const shuffleButton = document.getElementById('shuffle-button')
     const copyButton = document.getElementById('copy-button')
     const clearInputButton = document.getElementById('clear-input')
