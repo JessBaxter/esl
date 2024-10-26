@@ -23,18 +23,18 @@ export const beginnerScope = [
     grammar: ['prepositions of place', 'this, that, these, those', 'question words'],
     vocabulary: ['places in town', 'the time'],
   },
-  // {
-  //   week: 5,
-  //   topic: 'My things',
-  //   grammar: ["can/can't", 'can questions and short answers', 'have/has', 'be + adjective', 'adjective + noun'],
-  //   vocabulary: ['abilities', 'possessions', 'technology', 'money and prices'],
-  // },
-  // {
-  //   week: 6,
-  //   topic: 'We love it!',
-  //   grammar: ['like', 'like questions and short answers', 'he/she + like', 'object pronouns'],
-  //   vocabulary: ['sports', 'interests', 'food', 'opinion adjectives'],
-  // },
+  {
+    week: 5,
+    topic: 'My things',
+    grammar: ["can/can't", 'can questions and short answers', 'have/has', 'be + adjective', 'adjective + noun'],
+    vocabulary: ['abilities', 'possessions', 'technology', 'money and prices'],
+  },
+  {
+    week: 6,
+    topic: 'We love it!',
+    grammar: ['like', 'like questions and short answers', 'he/she + like', 'object pronouns'],
+    vocabulary: ['sports', 'interests', 'food', 'opinion adjectives'],
+  },
   // {
   //   week: 7,
   //   topic: 'Daily life',
