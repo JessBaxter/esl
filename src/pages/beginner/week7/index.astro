@@ -1,0 +1,612 @@
+---
+import DefaultLayout from '../../../layouts/DefaultLayout.astro'
+import { Media, Breadcrumbs, BreadcrumbsItem, Notification } from 'accessible-astro-components'
+import { beginnerScope } from '../../../assets/data/begScope.js'
+
+import Feature from '../../../components/Feature.astro'
+
+
+const weekData = beginnerScope[6] // Change to correct week (zero-indexed)
+
+// VOCAB
+const { voc1 = `/class-images/beginner/week${weekData.week}-vocab-ex1.webp` } = Astro.props
+const { voc2 = `/class-images/beginner/week${weekData.week}-vocab-ex2.webp` } = Astro.props
+const { voc3 = `/class-images/beginner/week${weekData.week}-vocab-ex3.webp` } = Astro.props
+const { voc4 = `/class-images/beginner/week${weekData.week}-vocab-ex4.webp` } = Astro.props
+const { voc5 = `/class-images/beginner/week${weekData.week}-vocab-ex5.webp` } = Astro.props
+const { voc6 = `/class-images/beginner/week${weekData.week}-vocab-ex6.webp` } = Astro.props
+const { voc7 = `/class-images/beginner/week${weekData.week}-vocab-ex7.webp` } = Astro.props
+const { voc8 = `/class-images/beginner/week${weekData.week}-vocab-ex8.webp` } = Astro.props
+const { voc9 = `/class-images/beginner/week${weekData.week}-vocab-ex9.webp` } = Astro.props
+const { voc10 = `/class-images/beginner/week${weekData.week}-vocab-ex10.webp` } = Astro.props
+
+// LISTENING
+const { lis1 = `/class-audio/beginner/week${weekData.week}-lis1.mp3` } = Astro.props
+const { lis2 = `/class-audio/beginner/week${weekData.week}-lis2.mp3` } = Astro.props
+
+---
+
+<DefaultLayout title={`Beginner Week ${weekData.week}`}>
+  <section class="container">
+    <div class="mb-10">
+      <Breadcrumbs>
+        <BreadcrumbsItem href="/" label="Home" />
+        <BreadcrumbsItem href="/beginner" label="Beginner" />
+        <BreadcrumbsItem currentPage={true} label={`Week ${weekData.week}`} />
+      </Breadcrumbs>
+    </div>
+    <div class="space-content container">
+      <h1>Week {weekData.week}: {weekData.topic}</h1>
+      <div>
+        <ul>
+          <li><b>Grammar:</b> {weekData.grammar.join(', ')}</li>
+          <li><b>Vocabulary:</b> {weekData.vocabulary.join(', ')}</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLASS CONTENT -->
+  <section class="mb-12 mt-32">
+    <div class="container">
+      <div class="grid grid-cols-1 gap-32 md:grid-cols-2">
+        <div class="space-content">
+          <h2>Vocabulary Activities</h2>
+          <h3>Question 1</h3>
+          <article>
+            <Media class="rounded-lg" src={voc1} alt="Exercise 1 image" />
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>This activity is ...</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> Well done! 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong> This activity is ...</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="cooking">
+              <button class="button mr-2">dancing</button>
+              <button class="button mr-2 mt-2">reading</button>
+              <button class="button mr-2 mt-2">cooking</button>
+            </div>
+          </article>
+
+          <h3>Question 2</h3>
+          <article>
+            <Media class="rounded-lg" src={voc2} alt="Exercise 2 image" />
+
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>This activity is ...</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> Well done! 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong> This activity is ...</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="dancing">
+              <button class="button mr-2">walking</button>
+              <button class="button mr-2 mt-2">dancing</button>
+              <button class="button mr-2 mt-2">climbing</button>
+            </div>
+          </article>
+
+          <h3>Question 3</h3>
+          <article>
+            <Media class="rounded-lg" src={voc3} alt="Exercise 3 image" />
+
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>This activity is ...</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> Well done! 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong> This activity is ...</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="singing">
+              <button class="button mr-2">walking</button>
+              <button class="button mr-2 mt-2">reading</button>
+              <button class="button mr-2 mt-2">singing</button>
+            </div>
+          </article>
+
+          <h3>Question 4</h3>
+          <article>
+            <Media class="rounded-lg" src={voc4} alt="Exercise 4 image" />
+
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>This activity is ...</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> Well done! 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong> This activity is ...</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="painting">
+              <button class="button mr-2">painting</button>
+              <button class="button mr-2 mt-2">reading</button>
+              <button class="button mr-2 mt-2">cooking</button>
+            </div>
+          </article>
+
+          <h3>Question 5</h3>
+          <article>
+            <Media class="rounded-lg" src={voc5} alt="Exercise 5 image" />
+
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>This activity is ...</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> Well done! 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong> This activity is ...</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="reading">
+              <button class="button mr-2">walking</button>
+              <button class="button mr-2 mt-2">reading</button>
+              <button class="button mr-2 mt-2">dancing</button>
+            </div>
+          </article>
+
+          <h3>Question 6</h3>
+          <article>
+            <Media class="rounded-lg" src={voc6} alt="Exercise 5 image" />
+
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>This activity is ...</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> Well done! 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong> This activity is ...</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="shopping">
+              <button class="button mr-2">walking</button>
+              <button class="button mr-2 mt-2">shopping</button>
+              <button class="button mr-2 mt-2">reading</button>
+            </div>
+          </article>
+
+          <h3>Question 7</h3>
+          <article>
+            <Media class="rounded-lg" src={voc7} alt="Exercise 5 image" />
+
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>This activity is ...</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> Well done! 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong> This activity is ...</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="walking">
+              <button class="button mr-2">cooking</button>
+              <button class="button mr-2 mt-2">climbing</button>
+              <button class="button mr-2 mt-2">walking</button>
+            </div>
+          </article>
+
+          <h3>Question 8</h3>
+          <article>
+            <Media class="rounded-lg" src={voc8} alt="Exercise 5 image" />
+
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>This activity is ...</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> Well done! 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong> This activity is ...</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="climbing">
+              <button class="button mr-2">walking</button>
+              <button class="button mr-2 mt-2">climbing</button>
+              <button class="button mr-2 mt-2">dancing</button>
+            </div>
+          </article>
+
+        </div>
+        <div class="space-content">
+          <h2>Speaking Activities</h2>
+             <Feature icon="ion:chatbubble-ellipses" title="Let's talk!" url=`/beginner/week${weekData.week}/speaking`>
+              <span class="italic">Ask you classmates!</span>
+            </Feature>
+        </div>
+        <div class="space-content">
+          <h2>Listening Activities</h2>
+          <h3>Routines</h3>
+          <figure>
+            <audio controls src={lis1} type="audio/mpeg">Your browser doesn't support this audio format.</audio>
+            <a href={lis1}> Download audio </a>
+          </figure>
+          <h4>Questions</h4>
+          <article>
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>I get up at _____.</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> I get up at six o'clock. 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong> I get up at _____.</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="six o'clock">
+              <button class="button mr-2">five o'clock</button>
+              <button class="button mr-2 mt-2">six o'clock</button>
+              <button class="button mr-2 mt-2">seven o'clock</button>
+            </div>
+          </article>
+          <article>
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>I have breakfast at _____.</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> I have breakfast at six thirty. 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong> I have breakfast at _____.</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="six thirty">
+              <button class="button mr-2">six o'clock</button>
+              <button class="button mr-2 mt-2">six thirty</button>
+              <button class="button mr-2 mt-2">seven thirty</button>
+            </div>
+          </article>
+          <article>
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>I start work at _____.</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> I start work at seven o'clock. 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong> I start work at _____.</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="seven o'clock">
+              <button class="button mr-2">three o'clock</button>
+              <button class="button mr-2 mt-2">seven o'clock</button>
+              <button class="button mr-2 mt-2">five o'clock</button>
+            </div>
+          </article>
+          <article>
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>I have lunch in a _____.</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong>I have lunch in a café. 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong>I have lunch in a _____.</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="café">
+              <button class="button mr-2">restaurant</button>
+              <button class="button mr-2 mt-2">coffee</button>
+              <button class="button mr-2 mt-2">café</button>
+            </div>
+          </article>
+          <article>
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>I finish work at _____.</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> I finish work at five forty-five. 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong> I finish work at _____.</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="five forty-five">
+              <button class="button mr-2">five forty-five</button>
+              <button class="button mr-2 mt-2">five fifty-five</button>
+              <button class="button mr-2 mt-2">four forty-four</button>
+            </div>
+          </article>
+          <article>
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>I have dinner _____.</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> I have dinner at home. 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong> I have dinner _____.</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="at home">
+              <button class="button mr-2">at home</button>
+              <button class="button mr-2 mt-2">at work</button>
+              <button class="button mr-2 mt-2">at school</button>
+            </div>
+          </article>
+          <article>
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>I go to bed at _____.</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> I go to bed at eleven thirty. 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong> I go to bed at _____.</p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="eleven thirty">
+              <button class="button mr-2">eleven thirty</button>
+              <button class="button mr-2 mt-2">ten o'clock</button>
+              <button class="button mr-2 mt-2">eleven twenty</button>
+            </div>
+          </article>
+
+          <h3>Hobbies</h3>
+          <figure>
+            <audio controls src={lis2} type="audio/mpeg">Your browser doesn't support this audio format.</audio>
+            <a href={lis2}> Download audio </a>
+          </figure>
+          <h4>Questions</h4>
+          <article>
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>Question 1</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong></p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="reading">
+              <button class="button mr-2">cooking</button>
+              <button class="button mr-2 mt-2">reading</button>
+              <button class="button mr-2 mt-2">shopping</button>
+              <button class="button mr-2 mt-2">dancing</button>
+            </div>
+          </article>
+          
+          <article>
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>Question 2</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong></p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="cooking">
+              <button class="button mr-2">reading</button>
+              <button class="button mr-2 mt-2">cooking</button>
+              <button class="button mr-2 mt-2">shopping</button>
+              <button class="button mr-2 mt-2">dancing</button>
+            </div>
+          </article>
+          
+          <article>
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>Question 3</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong></p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="dancing">
+              <button class="button mr-2">cooking</button>
+              <button class="button mr-2 mt-2">dancing</button>
+              <button class="button mr-2 mt-2">shopping</button>
+              <button class="button mr-2 mt-2">dancing</button>
+            </div>
+          </article>
+          
+          <article>
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>Question 4</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong></p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="singing">
+              <button class="button mr-2">cooking</button>
+              <button class="button mr-2 mt-2">singing</button>
+              <button class="button mr-2 mt-2">shopping</button>
+              <button class="button mr-2 mt-2">dancing</button>
+            </div>
+          </article>
+          
+          <article>
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>Question 5</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong></p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="painting">
+              <button class="button mr-2">cooking</button>
+              <button class="button mr-2 mt-2">shopping</button>
+              <button class="button mr-2 mt-2">dancing</button>
+              <button class="button mr-2 mt-2">painting</button>
+            </div>
+          </article>
+          
+          <article>
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>Question 6</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong></p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="walking">
+              <button class="button mr-2">cooking</button>
+              <button class="button mr-2 mt-2">shopping</button>
+              <button class="button mr-2 mt-2">walking</button>
+              <button class="button mr-2 mt-2">dancing</button>
+            </div>
+          </article>
+          
+          <article>
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>Question 7</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong></p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="climbing">
+              <button class="button mr-2">climbing</button>
+              <button class="button mr-2 mt-2">reading</button>
+              <button class="button mr-2 mt-2">shopping</button>
+              <button class="button mr-2 mt-2">dancing</button>
+            </div>
+          </article>
+          
+          <article>
+            <div class="info-container mt-4" style="display: block;">
+              <Notification type="info">
+                <p>Question 8</p>
+              </Notification>
+            </div>
+            <div class="notification-container mt-4" style="display: none;">
+              <Notification type="success">
+                <p><strong>Correct!</strong> 🎉</p>
+              </Notification>
+              <Notification type="error">
+                <p><strong>Oops!</strong></p>
+              </Notification>
+            </div>
+            <div class="exercise mt-4" data-correct="shopping">
+              <button class="button mr-2">shopping</button>
+              <button class="button mr-2 mt-2">reading</button>
+              <button class="button mr-2 mt-2">shopping</button>
+              <button class="button mr-2 mt-2">dancing</button>
+            </div>
+          </article>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+</DefaultLayout>
+
+<style>
+  @media (max-width: 640px) {
+    .exercise {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .exercise .button {
+      width: 100%;
+      margin-right: 0 !important;
+      margin-bottom: 0.5rem;
+    }
+
+    .exercise .button:last-child {
+      margin-bottom: 0;
+    }
+  }
+</style>
+
+<script>
+  import { initVocabImgExercise } from '../../../assets/scripts/vocabImgExercise.js'
+  document.addEventListener('astro:page-load', initVocabImgExercise)
+</script>
