@@ -35,17 +35,17 @@ export const beginnerScope = [
     grammar: ['like', 'like questions and short answers', 'he/she + like', 'object pronouns'],
     vocabulary: ['sports', 'interests', 'food', 'opinion adjectives'],
   },
-  // {
-  //   week: 7,
-  //   topic: 'Daily life',
-  //   grammar: [
-  //     'present simple I/you/we/you/they',
-  //     'prepositions of time',
-  //     'present simple questions I/you/we/you/they',
-  //     'present simple Wh- questions',
-  //   ],
-  //   vocabulary: ['routines', 'hobbies', 'weather', 'problems'],
-  // },
+  {
+    week: 7,
+    topic: 'Daily life',
+    grammar: [
+      'present simple I/you/we/you/they',
+      'prepositions of time',
+      'present simple questions I/you/we/you/they',
+      'present simple Wh- questions',
+    ],
+    vocabulary: ['routines', 'hobbies', 'weather', 'problems'],
+  },
   // {
   //   week: 8,
   //   topic: 'Work and study',
