@@ -46,12 +46,12 @@ export const beginnerScope = [
     ],
     vocabulary: ['routines', 'hobbies', 'weather', 'problems'],
   },
-  // {
-  //   week: 8,
-  //   topic: 'Work and study',
-  //   grammar: ['present simple he/she/it', 'present simple questions he/she/it', 'frequency adverbs'],
-  //   vocabulary: ['job activities', 'education'],
-  // },
+  {
+    week: 8,
+    topic: 'Work and study',
+    grammar: ['present simple he/she/it', 'present simple questions he/she/it', 'frequency adverbs'],
+    vocabulary: ['job activities', 'education'],
+  },
   // {
   //   week: 9,
   //   topic: 'Travel',
