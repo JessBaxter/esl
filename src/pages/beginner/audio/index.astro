@@ -1,0 +1,217 @@
+---
+import DefaultLayout from '../../../layouts/DefaultLayout.astro'
+import { Breadcrumbs, BreadcrumbsItem } from 'accessible-astro-components'
+import fs from 'node:fs'
+import path from 'node:path'
+
+// Function to get tracks for a specific unit
+function getUnitTracks(unitNumber: number) {
+  const unitPath = path.join(
+    process.cwd(),
+    'public',
+    'class-audio',
+    'beginner',
+    'raw-audio',
+    `unit-${unitNumber}`
+  )
+  
+  try {
+    const files = fs.readdirSync(unitPath)
+    return files
+      .filter(file => file.endsWith('.mp3'))
+      .sort((a, b) => {
+        const numA = parseInt(a.match(/\d+/)[0])
+        const numB = parseInt(b.match(/\d+/)[0])
+        return numA - numB
+      })
+  } catch (error) {
+    console.warn(`No tracks found for unit ${unitNumber}`)
+    return []
+  }
+}
+
+// Get all tracks for all units
+const unitTracks = Object.fromEntries(
+  Array.from({ length: 12 }, (_, i) => [i + 1, getUnitTracks(i + 1)])
+)
+
+// Pass this data to the frontend
+const tracksData = JSON.stringify(unitTracks)
+
+// Get the initial unit (could be from URL params or default to 1)
+const initialUnit = 1
+---
+
+<DefaultLayout title="Class Audio Files">
+    <section class="container">
+      <div class="mb-10">
+        <Breadcrumbs>
+          <BreadcrumbsItem href="/" label="Home" />
+          <BreadcrumbsItem href="/beginner" label="Beginner" />
+          <BreadcrumbsItem currentPage={true} label="Audio Files" />
+        </Breadcrumbs>
+      </div>
+      <div class="space-content container">
+        <h1>Class Audio Files</h1>
+        <div>
+          <label for="unit-select" class="block text-lg font-medium mb-2">Select Unit:</label>
+          <select 
+            id="unit-select" 
+            class="w-full max-w-xs p-2 border rounded shadow-sm mb-8 text-base bg-white text-black"
+            value={initialUnit}
+          >
+            {Array.from({ length: 12 }, (_, i) => {
+              const unitNum = i + 1
+              return (
+                <option value={unitNum} selected={unitNum === initialUnit}>
+                  Unit {unitNum}
+                </option>
+              )
+            })}
+          </select>
+        </div>
+      </div>
+    </section>
+
+  <section class="mb-12 mt-8">
+    <div class="container">
+      <div id="tracks-container" class="space-content">
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4">
+          {/* Tracks will be populated by JavaScript */}
+        </div>
+      </div>
+
+      <div id="audio-player" class="fixed bottom-0 left-0 right-0 bg-white shadow-lg p-4 hidden">
+        <div class="container">
+          <div class="flex items-center justify-between mb-2">
+            <div class="space-content">
+              <h3 id="now-playing" class="text-lg">No track selected</h3>
+            </div>
+            <button id="close-player" class="button" aria-label="Close audio player">
+              Close
+            </button>
+          </div>
+          <figure>
+            <audio id="audio-element" controls class="w-full">
+              Your browser doesn't support this audio format.
+            </audio>
+            <a id="download-link" href="#" class="mt-2 inline-block">Download audio</a>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+</DefaultLayout>
+
+<script define:vars={{ tracksData: tracksData, initialUnit: initialUnit }}>
+  const unitTracks = JSON.parse(tracksData);
+  const unitSelect = document.getElementById('unit-select');
+  const tracksContainer = document.querySelector('.grid');
+  const audioPlayer = document.getElementById('audio-player');
+  const audioElement = document.getElementById('audio-element');
+  const nowPlaying = document.getElementById('now-playing');
+  const closePlayer = document.getElementById('close-player');
+  const downloadLink = document.getElementById('download-link');
+
+  // Ensure the select shows the initial value
+  unitSelect.value = initialUnit.toString();
+
+  function createTrackButton(filename) {
+    const trackNum = parseInt(filename.match(/\d+/)[0]);
+    
+    const article = document.createElement('article');
+    article.className = 'p-4 bg-white rounded shadow hover:shadow-md transition-shadow';
+    
+    const button = document.createElement('button');
+    button.className = 'button w-full';
+    button.textContent = `Track ${trackNum}`;
+    button.onclick = () => playTrack(filename);
+    
+    article.appendChild(button);
+    return article;
+  }
+
+  function playTrack(filename) {
+    const unitNum = unitSelect.value;
+    const audioPath = `/class-audio/beginner/raw-audio/unit-${unitNum}/${filename}`;
+    
+    audioElement.src = audioPath;
+    downloadLink.href = audioPath;
+    
+    const trackNum = parseInt(filename.match(/\d+/)[0]);
+    nowPlaying.textContent = `Unit ${unitNum} - Track ${trackNum}`;
+    
+    audioPlayer.classList.remove('hidden');
+    audioElement.play();
+  }
+
+  function updateTracks() {
+    const unitNum = parseInt(unitSelect.value);
+    const tracks = unitTracks[unitNum] || [];
+    
+    tracksContainer.innerHTML = '';
+    tracks.forEach(filename => {
+      tracksContainer.appendChild(createTrackButton(filename));
+    });
+  }
+
+  // Event Listeners
+  unitSelect.addEventListener('change', updateTracks);
+  closePlayer.addEventListener('click', () => {
+    audioPlayer.classList.add('hidden');
+    audioElement.pause();
+  });
+
+  // Initialize tracks on page load
+  document.addEventListener('astro:page-load', () => {
+    // Ensure the select shows the correct value after page loads
+    unitSelect.value = initialUnit.toString();
+    updateTracks();
+  });
+</script>
+
+<style>
+    .container {
+      margin-bottom: 100px;
+    }
+  
+    #audio-player {
+      background: var(--background);
+      border-top: 1px solid var(--action-color);
+    }
+  
+    select {
+      /* Remove default styles */
+      appearance: auto;
+      /* Use theme colors */
+      color: var(--text-color);
+      background-color: var(--background);
+      border: 1px solid var(--action-color);
+      padding: 0.5rem;
+      border-radius: 0.25rem;
+    }
+  
+    /* Dark mode specific styles */
+    :global(.dark) select {
+      background-color: var(--background-dark, #1a1a1a);
+      color: var(--text-color-dark, #ffffff);
+      border-color: var(--action-color-dark, #4a4a4a);
+    }
+  
+    /* Ensure options are visible in both modes */
+    select option {
+      color: var(--text-color);
+      background-color: var(--background);
+    }
+  
+    :global(.dark) select option {
+      color: var(--text-color-dark, #ffffff);
+      background-color: var(--background-dark, #1a1a1a);
+    }
+  
+    @media (max-width: 640px) {
+      .grid {
+        gap: 1rem;
+      }
+    }
+  </style>
