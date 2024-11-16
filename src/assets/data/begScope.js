@@ -52,12 +52,12 @@ export const beginnerScope = [
     grammar: ['present simple he/she/it', 'present simple questions he/she/it', 'frequency adverbs'],
     vocabulary: ['job activities', 'education'],
   },
-  // {
-  //   week: 9,
-  //   topic: 'Travel',
-  //   grammar: ['there is/are', 'there is/are negative and question forms', 'imperative forms'],
-  //   vocabulary: ['clothes', 'hotel rooms', 'travel', 'hotels'],
-  // },
+  {
+    week: 9,
+    topic: 'Travel',
+    grammar: ['there is/are', 'there is/are negative and question forms', 'imperative forms'],
+    vocabulary: ['clothes', 'hotel rooms', 'travel', 'hotels'],
+  },
   // {
   //   week: 10,
   //   topic: 'Famous people',
