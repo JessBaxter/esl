@@ -3,7 +3,7 @@ layout: "@/templates/BasePost.astro"
 level: B1
 unit: Unit 9
 title: Commerce
-description: Stuff will go here.
+description: In this unit, you'll learn about commerce, including business practices, trade, and the global economy. The grammar focus for this unit is passives.
 pubDate: 2026-03-09T00:00:00Z
 imgSrc: "/assets/images/b1-u9-commerce.jpg"
 imgAlt: "B1 Unit 8 Commerce"
@@ -61,3 +61,4 @@ Feel free to use the following conversations questions to get you started:
 - What role does customer service play in the success of a business?
 - Do you think that businesses should focus more on making a profit or on helping society? Why?
 - How do you feel about the rise of big corporations and their impact on local businesses?
+
