@@ -3,7 +3,7 @@ layout: "@/templates/BasePost.astro"
 level: B1
 unit: Unit 7
 title: History*
-description: Stuff will go here.
+description: In this unit, you'll delve into history, learning about key events and figures from the past. The grammar focus for this unit is reported speech.
 pubDate: 2026-02-23T00:00:00Z
 imgSrc: "/assets/images/b1-u7-history.jpg"
 imgAlt: "B1 Unit 7 History"
@@ -67,3 +67,4 @@ Feel free to use the following conversations questions to get you started:
 - Do you think it's important to preserve old buildings and landmarks? Why?
 - What impact did the Industrial Revolution have on society and the economy?
 - How would you explain the importance of World War II to someone who doesn't know much about it?
+
