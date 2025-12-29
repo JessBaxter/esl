@@ -3,7 +3,7 @@ layout: "@/templates/BasePost.astro"
 level: B1
 unit: Unit 2
 title: Environment
-description: Stuff will go here.
+description: In this unit, you'll explore the topic of the environment, focusing on how humans interact with nature and the challenges our planet faces. The grammar focus for this unit is determiners and quantifiers, helping you describe things in terms of quantity and specificity.
 pubDate: 2026-01-19T00:00:00Z
 imgSrc: "/assets/images/b1-u2-environment.jpg"
 imgAlt: "B1 Unit 2 Environment"
@@ -85,3 +85,4 @@ Feel free to use the following conversations questions to get you started:
 - What environmental problem worries you the most?
 - How does climate change affect everyday life?
 - What can young people do to help the environment?
+
