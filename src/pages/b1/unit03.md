@@ -3,7 +3,7 @@ layout: "@/templates/BasePost.astro"
 level: B1
 unit: Unit 3
 title: Entertainment
-description: Stuff will go here.
+description: In this unit, you'll dive into the world of entertainment, exploring different activities and how people enjoy their free time. The grammar focus for this unit is gerunds and infinitives.
 pubDate: 2026-01-27T00:00:00Z
 imgSrc: "/assets/images/b1-u3-entertainment.jpg"
 imgAlt: "B1 Unit 3 Entertainment"
@@ -67,3 +67,4 @@ Feel free to use the following conversations questions to get you started:
 - If you could recommend one book to your friends, what would it be and why?
 - Do you play video games? What are your favourite games to play, and why do you like them?
 - What are some of your hobbies that help you relax and have fun in your free time?
+
