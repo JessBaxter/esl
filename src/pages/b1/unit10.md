@@ -3,7 +3,7 @@ layout: "@/templates/BasePost.astro"
 level: B1
 unit: Unit 10
 title: World Culture*
-description: Stuff will go here.
+description: In this unit, you'll explore world culture, focusing on traditions, art, and ways of life across different countries. The grammar focus for this unit is relative clauses.
 pubDate: 2026-03-16T00:00:00Z
 imgSrc: "/assets/images/b1-u10-world.jpg"
 imgAlt: "B1 Unit 10 World"
@@ -59,3 +59,4 @@ Feel free to use the following conversations questions to get you started:
 - Do you think the internet is changing world cultures? How so?
 - What cultural values do you think are most important for building strong communities?
 - How do you feel about the influence of globalisation on local cultures?
+
