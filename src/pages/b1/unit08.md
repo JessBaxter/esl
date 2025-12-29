@@ -3,7 +3,7 @@ layout: "@/templates/BasePost.astro"
 level: B1
 unit: Unit 8
 title: Food & Diet
-description: Stuff will go here.
+description: In this unit, you'll explore the topic of food and diet, discussing healthy eating habits and different cuisines around the world. The grammar focus for this unit is modals.
 pubDate: 2026-03-02T00:00:00Z
 imgSrc: "/assets/images/b1-u8-food.jpg"
 imgAlt: "B1 Unit 8 Food & Diet"
@@ -67,3 +67,4 @@ Feel free to use the following conversations questions to get you started:
 - Do you think people are becoming more or less health-conscious about food today? Why?
 - How do you usually plan your meals for the week? Do you prefer cooking at home or eating out?
 - What are the benefits of drinking water instead of sugary drinks, in your opinion?
+
