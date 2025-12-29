@@ -3,7 +3,7 @@ layout: "@/templates/BasePost.astro"
 level: B1
 unit: Unit 4
 title: Health
-description: Stuff will go here.
+description: In this unit, you'll explore the topic of health, focusing on physical well-being, exercise, and visiting the doctor. The grammar focus for this unit is adjectives.
 pubDate: 2026-02-02T00:00:00Z
 imgSrc: "/assets/images/b1-u4-health.jpg"
 imgAlt: "B1 Unit 4 Health"
@@ -88,3 +88,4 @@ Feel free to use the following conversations questions to get you started:
 - If you had to choose between being physically active or eating healthy, which would you prioritise and why?
 - Have you ever been to the hospital for an emergency? What was the experience like?
 - What would you do if you didn’t feel comfortable with a doctor’s advice?
+
