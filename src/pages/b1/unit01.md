@@ -3,7 +3,7 @@ layout: "@/templates/BasePost.astro"
 level: B1
 unit: Unit 1
 title: Relationships
-description: Stuff will go here.
+description: In this unit, you'll explore the topic of relationships, focusing on how we connect with family, friends, and others around us. The grammar focus for this unit is 'questions'.
 pubDate: 2026-01-12T00:00:00Z
 imgSrc: "/assets/images/b1-u1-relationships.jpg"
 imgAlt: "B1 Unit 1 Relationships"
@@ -67,3 +67,4 @@ Feel free to use the following conversations questions to get you started:
 - Who do people usually talk to when they need advice, and why?
 - What is the difference between a close friend and an ordinary friend?
 - How can people fix a relationship after an argument?
+
