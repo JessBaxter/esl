@@ -3,7 +3,7 @@ layout: "@/templates/BasePost.astro"
 level: B1
 unit: Unit 6
 title: Work
-description: Stuff will go here.
+description: In this unit, you'll explore the world of work, focusing on career paths, workplace environments, and job responsibilities. The grammar focus for this unit is the present perfect, past perfect, and present perfect continuous.
 pubDate: 2026-02-16T00:00:00Z
 imgSrc: "/assets/images/b1-u6-work.jpg"
 imgAlt: "B1 Unit 6 Work"
@@ -67,3 +67,4 @@ Feel free to use the following conversations questions to get you started:
 - What is the most challenging part of your current or past job?
 - Would you prefer to have a job with regular hours or a job with flexible hours? Why?
 - Do you think technology has made work easier or more difficult? Can you give an example?
+
