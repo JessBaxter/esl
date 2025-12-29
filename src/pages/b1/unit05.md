@@ -3,7 +3,7 @@ layout: "@/templates/BasePost.astro"
 level: B1
 unit: Unit 5
 title: Science & Tech
-description: Stuff will go here.
+description: In this unit, you'll explore the world of science and technology, focusing on innovations and their affect on our lives. The grammar focus for this unit is conditionals (zero to third).
 pubDate: 2026-02-09T00:00:00Z
 imgSrc: "/assets/images/b1-u5-sci.jpg"
 imgAlt: "B1 Unit 5 Science & Tech"
@@ -67,3 +67,4 @@ Feel free to use the following conversations questions to get you started:
 - Do you think science and technology should be used to improve the environment? How?
 - How has social media changed the way people communicate with each other?
 - Do you believe there are any risks to using too much technology? What are they?
+
