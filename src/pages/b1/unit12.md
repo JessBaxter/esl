@@ -3,7 +3,7 @@ layout: "@/templates/BasePost.astro"
 level: B1
 unit: Unit 12
 title: Holidays
-description: Stuff will go here.
+description: In this unit, you'll discuss holidays, focusing on travel, celebrations, and the joys of taking time off. The grammar focus for this unit is future forms.
 pubDate: 2026-03-30T00:00:00Z
 imgSrc: "/assets/images/b1-u12-holidays.jpg"
 imgAlt: "B1 Unit 12 Holidays"
@@ -64,3 +64,4 @@ Feel free to use the following conversations questions to get you started:
 - How do you feel about spending holidays with family versus friends?
 - Do you think it’s important to try local food when you’re on holiday? Why?
 - If you could go anywhere for your next holiday, where would you go and why?
+
