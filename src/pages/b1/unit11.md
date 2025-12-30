@@ -3,7 +3,7 @@ layout: "@/templates/BasePost.astro"
 level: B1
 unit: Unit 11
 title: Urban Living
-description: Stuff will go here.
+description: In this unit, you'll look at urban living, exploring life in cities, public transport, and the pros and cons of city life. The grammar focus for this unit is the present continuous and past continuous.
 pubDate: 2026-03-23T00:00:00Z
 imgSrc: "/assets/images/b1-u11-urban.jpg"
 imgAlt: "B1 Unit 11 Urban Living"
@@ -63,3 +63,4 @@ Feel free to use the following conversations questions to get you started:
 - How important is it for cities to have green spaces like parks and gardens?
 - What kind of activities or events do you enjoy doing in the city?
 - How do you think urban living will change in the next 20 years?
+
