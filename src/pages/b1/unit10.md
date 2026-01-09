@@ -47,7 +47,7 @@ Scroll down to the skill you want to practise. All links will take you to extern
 
 ## Speaking 🗨
 
-Feel free to use the following conversations questions to get you started:
+Feel free to use the following conversation questions to get you started:
 
 - What do you think are the most interesting cultural traditions in your country?
 - How important is it to learn about other cultures, in your opinion?
@@ -59,4 +59,5 @@ Feel free to use the following conversations questions to get you started:
 - Do you think the internet is changing world cultures? How so?
 - What cultural values do you think are most important for building strong communities?
 - How do you feel about the influence of globalisation on local cultures?
+
 
