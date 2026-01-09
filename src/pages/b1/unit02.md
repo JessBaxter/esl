@@ -73,7 +73,7 @@ Refer to these if you want to learn more about the grammar in the exercises, or 
 
 ## Speaking 🗨
 
-Feel free to use the following conversations questions to get you started:
+Feel free to use the following conversation questions to get you started:
 
 - What are some environmental problems in your town or country?
 - How can people reduce waste in their daily lives?
@@ -85,4 +85,5 @@ Feel free to use the following conversations questions to get you started:
 - What environmental problem worries you the most?
 - How does climate change affect everyday life?
 - What can young people do to help the environment?
+
 
