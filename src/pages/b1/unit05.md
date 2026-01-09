@@ -55,7 +55,7 @@ Scroll down to the skill you want to practise. All links will take you to extern
 
 ## Speaking 🗨
 
-Feel free to use the following conversations questions to get you started:
+Feel free to use the following conversation questions to get you started:
 
 - What new technology do you think has had the biggest impact on our lives in the last 10 years?
 - How do you usually use technology in your daily life?
@@ -67,4 +67,5 @@ Feel free to use the following conversations questions to get you started:
 - Do you think science and technology should be used to improve the environment? How?
 - How has social media changed the way people communicate with each other?
 - Do you believe there are any risks to using too much technology? What are they?
+
 
