@@ -76,7 +76,7 @@ Refer to these if you want to learn more about the grammar in the exercises, or 
 
 ## Speaking 🗨
 
-Feel free to use the following conversations questions to get you started:
+Feel free to use the following conversation questions to get you started:
 
 - How often do you visit the doctor for a check-up?
 - What do you usually do to stay healthy?
@@ -88,4 +88,5 @@ Feel free to use the following conversations questions to get you started:
 - If you had to choose between being physically active or eating healthy, which would you prioritise and why?
 - Have you ever been to the hospital for an emergency? What was the experience like?
 - What would you do if you didn’t feel comfortable with a doctor’s advice?
+
 
