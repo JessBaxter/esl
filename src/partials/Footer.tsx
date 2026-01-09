@@ -4,8 +4,10 @@ import { AppConfig } from '@/utils/AppConfig';
 
 const Footer = () => (
   <Section>
-    <FooterCopyright site_name={AppConfig.site_name} />
+    {/* <FooterCopyright site_name={AppConfig.site_name} /> */}
+    &copy; 2026 jess.foo
   </Section>
 );
 
 export { Footer };
+
