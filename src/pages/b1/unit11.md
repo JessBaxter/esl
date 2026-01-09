@@ -51,7 +51,7 @@ Scroll down to the skill you want to practise. All links will take you to extern
 
 ## Speaking 🗨
 
-Feel free to use the following conversations questions to get you started:
+Feel free to use the following conversation questions to get you started:
 
 - What do you like most about living in a city?
 - What are some of the biggest challenges of living in a big city?
@@ -63,4 +63,5 @@ Feel free to use the following conversations questions to get you started:
 - How important is it for cities to have green spaces like parks and gardens?
 - What kind of activities or events do you enjoy doing in the city?
 - How do you think urban living will change in the next 20 years?
+
 
