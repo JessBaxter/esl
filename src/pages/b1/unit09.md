@@ -49,7 +49,7 @@ Scroll down to the skill you want to practise. All links will take you to extern
 
 ## Speaking 🗨
 
-Feel free to use the following conversations questions to get you started:
+Feel free to use the following conversation questions to get you started:
 
 - What do you think is the most important factor for a business to be successful?
 - How do you feel about online shopping compared to shopping in physical stores?
@@ -61,4 +61,5 @@ Feel free to use the following conversations questions to get you started:
 - What role does customer service play in the success of a business?
 - Do you think that businesses should focus more on making a profit or on helping society? Why?
 - How do you feel about the rise of big corporations and their impact on local businesses?
+
 
