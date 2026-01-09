@@ -55,7 +55,7 @@ Scroll down to the skill you want to practise. All links will take you to extern
 
 ## Speaking 🗨
 
-Feel free to use the following conversations questions to get you started:
+Feel free to use the following conversation questions to get you started:
 
 - What was your first job, and what did you learn from it?
 - How do you usually find out about job opportunities?
@@ -67,4 +67,5 @@ Feel free to use the following conversations questions to get you started:
 - What is the most challenging part of your current or past job?
 - Would you prefer to have a job with regular hours or a job with flexible hours? Why?
 - Do you think technology has made work easier or more difficult? Can you give an example?
+
 
