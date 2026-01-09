@@ -55,7 +55,7 @@ Scroll down to the skill you want to practise. All links will take you to extern
 
 ## Speaking 🗨
 
-Feel free to use the following conversations questions to get you started:
+Feel free to use the following conversation questions to get you started:
 
 - What type of movies do you enjoy watching the most? Why?
 - Do you prefer watching movies at home or in the cinema? What are the advantages of each?
@@ -67,4 +67,5 @@ Feel free to use the following conversations questions to get you started:
 - If you could recommend one book to your friends, what would it be and why?
 - Do you play video games? What are your favourite games to play, and why do you like them?
 - What are some of your hobbies that help you relax and have fun in your free time?
+
 
