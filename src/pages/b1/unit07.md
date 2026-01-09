@@ -55,7 +55,7 @@ Scroll down to the skill you want to practise. All links will take you to extern
 
 ## Speaking 🗨
 
-Feel free to use the following conversations questions to get you started:
+Feel free to use the following conversation questions to get you started:
 
 - What period of history do you find most interesting, and why?
 - Who is your favourite historical figure, and what did they achieve?
@@ -67,4 +67,5 @@ Feel free to use the following conversations questions to get you started:
 - Do you think it's important to preserve old buildings and landmarks? Why?
 - What impact did the Industrial Revolution have on society and the economy?
 - How would you explain the importance of World War II to someone who doesn't know much about it?
+
 
