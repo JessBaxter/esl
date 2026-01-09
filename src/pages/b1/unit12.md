@@ -52,7 +52,7 @@ Scroll down to the skill you want to practise. All links will take you to extern
 
 ## Speaking 🗨
 
-Feel free to use the following conversations questions to get you started:
+Feel free to use the following conversation questions to get you started:
 
 - What is your favourite holiday, and how do you usually celebrate it?
 - Do you prefer going on a holiday to a beach, a city, or the countryside? Why?
@@ -64,4 +64,5 @@ Feel free to use the following conversations questions to get you started:
 - How do you feel about spending holidays with family versus friends?
 - Do you think it’s important to try local food when you’re on holiday? Why?
 - If you could go anywhere for your next holiday, where would you go and why?
+
 
