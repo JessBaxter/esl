@@ -55,7 +55,7 @@ Scroll down to the skill you want to practise. All links will take you to extern
 
 ## Speaking 🗨
 
-Feel free to use the following conversations questions to get you started:
+Feel free to use the following conversation questions to get you started:
 
 - What makes a good friendship last a long time?
 - How do relationships with family change as people grow older?
@@ -67,4 +67,5 @@ Feel free to use the following conversations questions to get you started:
 - Who do people usually talk to when they need advice, and why?
 - What is the difference between a close friend and an ordinary friend?
 - How can people fix a relationship after an argument?
+
 
